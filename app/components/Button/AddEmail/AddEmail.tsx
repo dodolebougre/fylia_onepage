@@ -1,5 +1,5 @@
 import React from "react";
-import { AddEmailProps } from "@types";
+import { AddEmailProps } from "../../../../types";
 
 const AddEmail = ({ email, setEmail, handleCreateEmail }: AddEmailProps) => {
   return (
