@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import nodemailer from "nodemailer"
+import nodemailer from "nodemailer";
 
 const contact = async (req: NextApiRequest, res: NextApiResponse) => {
   const { name, emailPro, phoneNumber, message } = req.body;
@@ -15,7 +15,7 @@ const contact = async (req: NextApiRequest, res: NextApiResponse) => {
   const transporter = nodemailer.createTransport({
     host: "smtp.viaduc.fr",
     port: 587,
-    secure: true,
+    secure: false,
     auth: {
       user: user,
       pass: process.env.pass,
