@@ -3,6 +3,7 @@ import { Cormorant } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const cormorant = Cormorant({ subsets: ["latin"] });
 
@@ -19,7 +20,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body className={cormorant.className}>
         <Navbar />
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />
+        </main>
         <Footer />
       </body>
     </html>
