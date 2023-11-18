@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff2e7; /* Remplacez cette couleur par celle que vous souhaitez */
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.custom-img {
+  background-image: url("/assets/image/heroimage.png");
+  background-position: 100% center; /* Image alignée à droite */
+}
+
+.proofbar {
+  margin-top: -110px;
+}
+
+.custom-img2 {
+  background-image: url("/assets/image/tableausombre.png");
+}
+
+@media (min-width: 800px) {
+  .proofbar img {
+    height: 35px;
+    width: auto;
+    margin: 0 50px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (max-width: 800px) {
+  .proofbar img {
+    height: 25px;
+    width: auto;
+    margin: 0;
+  }
+}
+.custom-img3 {
+  background-image: url("/assets/image/tableausombre2.png");
 }
