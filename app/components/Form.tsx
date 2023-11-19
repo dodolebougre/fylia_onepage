@@ -36,8 +36,12 @@ const Contact = () => {
   }
   return (
     <div className="flex flex-col items-center m-10">
-      <h1 className="text-white lg:text-6xl md:text-5xl text-4xl text-center mb-5 ">Vous êtes un artiste ?</h1>
-      <h2 className="text-white lg:text-4xl md:text-3xl text-2xl text-center font-extralight">Contactez-nous</h2>
+      <h1 className="text-white lg:text-6xl md:text-5xl text-4xl text-center mb-5 ">
+        Vous êtes un artiste ?
+      </h1>
+      <h2 className="text-white lg:text-4xl md:text-3xl text-2xl text-center font-extralight">
+        Contactez-nous
+      </h2>
       <form className="flex flex-col items-center" onSubmit={handleSubmit}>
         <input
           placeholder="Votre prénom"
@@ -63,7 +67,7 @@ const Contact = () => {
         <textarea
           maxLength={500}
           placeholder="Laissez nous un petit message"
-          className="mt-3 w-[300px] bg-transparent border h-[200px] p-2"
+          className="mt-3 w-[300px] bg-transparent border h-[200px] p-2 text-white"
           id="message"
         />
         <button
