@@ -9,7 +9,7 @@ const cormorant = Cormorant({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Fylia",
-  description: "Mise en relation d'artiste et d'ameteur d'art",
+  description: "Mise en relation d'artiste et d'amateur d'art",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

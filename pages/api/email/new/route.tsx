@@ -14,13 +14,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const existingEmail = await Email.findOne({ email });
     if (existingEmail) {
       // Si l'email existe déjà, renvoyez une réponse appropriée (par exemple, 409 Conflict)
-      return res.status(409).json({ error: "Email already exists" });
+      return res.status(409).json({ error: "L'email est déjà existant" });
     }
 
     const newEmail = new Email({ email });
     await newEmail.save();
     
-    console.log("email envoyé");
+    console.log("Email bien envoyé !");
     
     
     return res.status(201).json(newEmail);

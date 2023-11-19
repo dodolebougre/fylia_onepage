@@ -21,11 +21,11 @@ const Contact = () => {
       const response = await axios.post("/api/form/contact", data);
 
       if (response.status === 200) {
-        alert("Message sent successfully");
+        alert("Email envoyé avec succés");
         setLoading(false);
         event.target.reset();
       } else {
-        alert("Error sending message");
+        alert("Erreur d'envoie de message");
         setLoading(false);
       }
     } catch (error) {
