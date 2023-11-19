@@ -5,7 +5,7 @@ const Video = () => {
   return (
     <div
       id="video"
-      className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover"
+      className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover object-cover"
       style={{
         backgroundImage: 'url("/assets/image/tableausombre.png")',
       }}
