@@ -6,29 +6,29 @@ import { RxDotFilled } from "react-icons/rx";
 function App() {
   const slides = [
     {
-      img: "/assets/image/paint_village.png",
-      profil: "/assets/image/personne_1.png",
-      name: "Hervé",
-      lastName: "Jardel",
-      age: "76 ans",
+      img: "https://images.unsplash.com/photo-1616853787961-ce0d7e64665a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHBhaW50JTIwcGV0fGVufDB8fDB8fHww",
+      profil: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZlbnR1cmllciUyMHByb2ZpbHxlbnwwfHwwfHx8MA%3D%3D",
+      name: "Timothé",
+      lastName: "Lastella",
+      age: "39 ans",
       quote:
-        "“ Mon père était scaphandrier. Un jour il est rentré à la maison, il m’a dit qu’il s’était endormi au fond de l’eau, qu’il n’avait jamais vu un bleu aussi beau...”",
+        "“Un ecureil ma tout donné wallaa”",
     },
     {
-      img: "/assets/image/paint_mariage.png",
-      profil: "/assets/image/personne_1.png",
-      name: "name",
-      lastName: "lastname",
-      age: "age",
-      quote: "Nouvelle citation",
+      img: "https://images.unsplash.com/photo-1695151842277-0e7cddae4157?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxwYWludCUyMHdlZGRpbmd8ZW58MHx8MHx8fDA%3D",
+      profil: "https://images.unsplash.com/photo-1597614468437-c3b759575358?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHlvdW5nfGVufDB8fDB8fHww",
+      name: "Elisa",
+      lastName: "Latelie",
+      age: "32 ans",
+      quote: "Un mariage marquant, et touchant qui a fini en drame...",
     },
     {
-      img: "/assets/image/paint_blue.png",
-      profil: "/assets/image/personne_1.png",
-      name: "Nom",
-      lastName: "Prénom",
-      age: "27",
-      quote: "Nouvelle citation 2",
+      img: "https://images.unsplash.com/photo-1596468138838-0f34c2d0773b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBhaW50fGVufDB8fDB8fHww",
+      profil: "https://plus.unsplash.com/premium_photo-1680020185326-45491267f8da?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlldXh8ZW58MHx8MHx8fDA%3D",
+      name: "Hérvé",
+      lastName: "Jardel",
+      age: "57 ans",
+      quote: "“ Mon père était scaphandrier. Un jour il est rentré à la maison, il m’a dit qu’il s’était endormi au fond de l’eau, qu’il n’avait jamais vu un bleu aussi beau...”",
     },
   ];
 
@@ -56,13 +56,13 @@ function App() {
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
         className="w-full h-full rounded-1xl bg-center bg-cover duration-500"
       >
-        <div className="bg-white bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-10 rounded-1xl items-center">
+        <div className="bg-white bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center">
           <img
-            className="w-40"
+            className="w-20 h-20 object-cover shadow "
             src={slides[currentIndex].profil}
             alt={slides[currentIndex].lastName}
           />
-          <h2 className="text-3xl">
+          <h2 className="text-3xl mt-2">
             {slides[currentIndex].name}{" "}
             <strong>{slides[currentIndex].lastName}</strong>
           </h2>

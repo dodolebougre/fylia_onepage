@@ -6,7 +6,8 @@ import ValueProp2 from "./components/ValueProp2";
 import ValueProp3 from "./components/ValueProp3";
 import Slider from "../components/Slider";
 import SocialProof from "../components/SocialProof";
-import Paint2 from "./components/Paint2";
+import Paint2 from "./components/Contact";
+import Cta2 from "./components/Cta2";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
         <ValueProp3 />
         <Slider />
         <SocialProof />
+        <Cta2/>
         <Paint2 />
       </>
     </div>

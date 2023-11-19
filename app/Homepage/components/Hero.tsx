@@ -4,8 +4,14 @@ import Button from "../../components/Button/Button";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
+    <div id="hero">
+      <div
+        className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover"
+        style={{
+          backgroundImage:
+            'url("/assets/image/zyro-image final.png")',
+        }}
+      >
         <div className="p-5 text-white text-center">
           <h1 className="text-6xl tracking-tighter sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl mb-5">
             Transformez vos souvenirs en œuvre d’art

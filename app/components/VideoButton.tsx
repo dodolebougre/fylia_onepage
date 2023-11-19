@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect, useRef } from "react";
 import ReactPlayer from "react-player";
 import { FiPlay } from "react-icons/fi";
@@ -50,7 +49,7 @@ const YourComponent = () => {
       )}
 
       {showVideoModal && (
-        <div className="bg-black p-9xl inset-0 flex items-center justify-center">
+        <div>
           <div
             ref={videoRef}
             className="video-modal middle flex flex-col items-center"

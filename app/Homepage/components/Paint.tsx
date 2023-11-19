@@ -5,7 +5,10 @@ const Video = () => {
   return (
     <div
       id="video"
-      className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img2 "
+      className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover"
+      style={{
+        backgroundImage: 'url("/assets/image/tableausombre.png")',
+      }}
     >
       <div className="flex flex-col items-end">
         <div className="relative">
