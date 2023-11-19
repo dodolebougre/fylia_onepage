@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div id="hero">
       <div
-        className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover object-cover"
+        className="flex items-center justify-center h-screen mb-12 md:bg-fixed bg-center bg-cover object-cover"
         style={{
           backgroundImage:
             'url("/assets/image/zyro-image final.png")',
