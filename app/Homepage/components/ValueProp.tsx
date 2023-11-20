@@ -36,7 +36,7 @@ const ValueProp = () => {
               </h3>
             </div>
             <p className="text-lg text-center lg:text-left">
-              Les artistes les plus proches de chez vous, transforme votre
+              Les artistes les plus proches de chez vous, transforment votre
               souvenir en véritable oeuvre d’art ☞
             </p>
           </section>
