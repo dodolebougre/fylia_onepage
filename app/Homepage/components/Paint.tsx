@@ -25,10 +25,10 @@ const Video = () => {
 
         <div className="text-white text-right italic">
           <p>
-            <strong>Témoignage :</strong> Clodette la Poulette
+            <strong>Témoignage :</strong> Clodette
           </p>
           <p>
-            <strong>Artiste :</strong> Clodette la Poulette
+            <strong>Artiste :</strong> Sarah Delage
           </p>
         </div>
       </div>
