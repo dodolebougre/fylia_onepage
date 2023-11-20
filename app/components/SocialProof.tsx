@@ -12,9 +12,9 @@ const SocialProof = () => {
           <figure className="mt-10">
             <blockquote className="text-center text-xl font-light leading-8 text-gray-900 sm:text-2xl sm:leading-9">
               <p>
-                “Ca me parle cette idée, j’ai très envie de m’essayer à peindre
+                “Cette idée me parle, j’ai très envie de m’essayer à peindre
                 les souvenirs d’une personne, c‘est assez réjouissant car c’est
-                surement un cadeau qui les marquera a vie“
+                surement un cadeau qui les marqueras à vie“
               </p>
             </blockquote>
             <figcaption className="mt-10">

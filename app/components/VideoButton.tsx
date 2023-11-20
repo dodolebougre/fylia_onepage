@@ -61,7 +61,7 @@ const YourComponent = () => {
               <AiOutlineClose />
             </button>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=RIZVrdeVI3A"
+              url=""
               controls={true}
               width="430px"
               height="300px"
