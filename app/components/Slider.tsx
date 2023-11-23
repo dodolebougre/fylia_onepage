@@ -6,32 +6,32 @@ import { RxDotFilled } from "react-icons/rx";
 function App() {
   const slides = [
     {
-      img: "https://images.unsplash.com/photo-1616853787961-ce0d7e64665a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHBhaW50JTIwcGV0fGVufDB8fDB8fHww",
+      img: "/assets/image/FullSizeRender.png",
       profil:
         "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZlbnR1cmllciUyMHByb2ZpbHxlbnwwfHwwfHx8MA%3D%3D",
       name: "Timothé",
       lastName: "Lastella",
       age: "39 ans",
-      quote: "“Tout simplement la beauté de la nature”",
+      quote: "“Ma meilleure amie, ma confidente. Une femme tout en couleur qui a su ...”",
     },
     {
-      img: "https://images.unsplash.com/photo-1695151842277-0e7cddae4157?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxwYWludCUyMHdlZGRpbmd8ZW58MHx8MHx8fDA%3D",
+      img: "/assets/image/provence.png",
       profil:
         "https://images.unsplash.com/photo-1597614468437-c3b759575358?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHlvdW5nfGVufDB8fDB8fHww",
       name: "Elisa",
       lastName: "Latelie",
       age: "32 ans",
-      quote: "Un mariage marquant, et plein d'emotion",
+      quote: "“Ce petit village du sud de la france qui me rappel les bons moments passés avec ma famille...”",
     },
     {
-      img: "https://images.unsplash.com/photo-1596468138838-0f34c2d0773b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBhaW50fGVufDB8fDB8fHww",
+      img: "/assets/image/bleu.png",
       profil:
         "https://plus.unsplash.com/premium_photo-1680020185326-45491267f8da?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlldXh8ZW58MHx8MHx8fDA%3D",
       name: "Hérvé",
       lastName: "Jardel",
       age: "57 ans",
       quote:
-        "“ Mon père était scaphandrier. Un jour il est rentré à la maison, il m’a dit qu’il s’était endormi au fond de l’eau, qu’il n’avait jamais vu un bleu aussi beau...”",
+        "“ Mon père était scaphandrier. Un jour il est rentré à la maison, il m’a dit qu’il n’avait jamais vu un bleu aussi beau...”",
     },
   ];
 
@@ -57,11 +57,11 @@ function App() {
     <div className="max-w-[1300px] h-[720px] w-full m-auto py-16 px-4 relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
-        className="w-full h-full rounded-1xl bg-center bg-cover duration-500"
+        className="w-full h-full rounded-1xl bg-center bg-cover duration-500 rounded shadow"
       >
-        <div className="bg-white bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center">
+        <div className="bg-black text-white bg-opacity-60 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center rounded shadow">
           <img
-            className="w-20 h-20 object-cover shadow "
+            className="w-20 h-20 object-cover shadow rounded"
             src={slides[currentIndex].profil}
             alt={slides[currentIndex].lastName}
           />
@@ -90,7 +90,6 @@ function App() {
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
-            <RxDotFilled />
           </div>
         ))}
       </div>

@@ -7,9 +7,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  background-color: #A4CECD; /* Remplacez cette couleur par celle que vous souhaitez */
-}
+
+  html {
+    background-image: url("/assets/image/fond.png");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(100px);
+  }
+
+
+
 
 h1 {
   font-family: "Times New Roman", Times, serif;

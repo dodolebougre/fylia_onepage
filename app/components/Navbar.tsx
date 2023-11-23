@@ -9,9 +9,6 @@ const Navbar = () => {
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
   const [icon, setIcon] = useState("/assets/icon/fyliaicon.png");
-  const [boxShadowBottom, setBoxShadowBottom] = useState(
-    "0px 2px 5px rgba(0, 0, 0, 0.1)"
-  );
 
   const handleNav = () => {
     setNav(!nav);
@@ -20,16 +17,14 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("#ffffff");
-        setTextColor("#000000");
-        setIcon("/assets/icon/fyliablackicon.png");
-        setBoxShadowBottom("0px 2px 5px rgba(0, 0, 0, 0.1)");
+        setColor("rgba(0, 0, 0, 0.6)");
+        setTextColor("#ffffff");
+        setIcon("/assets/icon/fyliaicon.png");
       } else {
         setColor("transparent");
         setTextColor("#ffffff");
         setIcon("/assets/icon/fyliablackicon.png");
         setIcon("/assets/icon/fyliaicon.png");
-        setBoxShadowBottom("0px 2px 5px rgba(0, 0, 0, 0)");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -37,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav
-      style={{ backgroundColor: `${color}`, boxShadow: ` ${boxShadowBottom}` }}
+      style={{ backgroundColor: `${color}` }}
       className=" fixed left-0 top-0 w-full ease-in duration-300 z-10 text-lg first-letter:"
     >
       <div className=" flex justify-between items-center p-3 text-white">
@@ -48,10 +43,10 @@ const Navbar = () => {
           offset={-70} // Ajustez cela en fonction de votre mise en page (pour compenser la hauteur de votre barre de navigation par exemple)
           duration={500}
         >
-          <img className="cursor-pointer" width={50} src={icon} alt="logo" />
+          <img className="cursor-pointer duration-300 transform hover:scale-125" width={50} src={icon} alt="logo" />
         </ScrollLink>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-2 mr-2 cursor-pointer">
+          <li className="p-2 mr-2 cursor-pointer duration-300 transform hover:scale-125 hover:font-semibold">
             <ScrollLink
               to="hero" // L'identifiant de la section cible
               spy={true}
@@ -62,7 +57,7 @@ const Navbar = () => {
               Fylia
             </ScrollLink>
           </li>
-          <li className="p-2 mr-2 cursor-pointer">
+          <li className="p-2 mr-2 ml-3 cursor-pointer duration-300 transform hover:scale-125 hover:font-semibold">
             <ScrollLink
               to="video"
               spy={true}
@@ -70,10 +65,11 @@ const Navbar = () => {
               offset={-70} // Ajustez cela en fonction de votre mise en page (pour compenser la hauteur de votre barre de navigation par exemple)
               duration={500}
             >
-              Comment ça marche ?
+              Notre teaser
             </ScrollLink>
           </li>
-          <li className="p-2 cursor-pointer">
+          <li className="p-2 ml-3 cursor-pointer duration-300 transform hover:scale-125
+          hover:font-semibold">
             <ScrollLink
               to="contact"
               spy={true}
@@ -113,7 +109,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#video">Comment ça marche ?</Link>
+              <Link href="/#video">Notre teaser</Link>
             </li>
             <li
               onClick={handleNav}

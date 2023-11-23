@@ -14,8 +14,8 @@ const Homepage = () => {
     <div>
       <>
         <Hero />
-        <Video />
         <ValueProp />
+        <Video />
         <ValueProp2 />
         <ValueProp3 />
         <Slider />

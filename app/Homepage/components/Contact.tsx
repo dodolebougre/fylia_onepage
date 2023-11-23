@@ -5,7 +5,7 @@ const form = () => {
   return (
     <div
       id="contact"
-      className="items-center justify-center h-screen mb-12 bg-center bg-cover flex object-cover md:bg-fixed"
+      className="items-center justify-center h-screen bg-center bg-cover flex object-cover md:bg-fixed"
       style={{
         backgroundImage: 'url("/assets/image/tableausombre2.png")',
       }}
