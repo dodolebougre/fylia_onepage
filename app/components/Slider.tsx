@@ -65,11 +65,11 @@ function App() {
     <div className="flex flex-col items-center mt-[100px]">
       <h2
         className="text-center text-2xl md:text-2xl lg:text-3xl max-w-[400px] md:max-w-[600px] lg:max-w-[700px] font-semibold text-white mb-[-30px]text-center"
-        style={{ textShadow: "1px 1px 5px rgba(0, 0, 0, 0.5)" }}
+        style={{ textShadow: "1px 1px 5px rgba(0, 0, 0, 0.5) " }}
       >
         ✦ Nos artistes au service de vos souvenirs ✦
       </h2>
-    <div className="max-w-[1250px] h-[700px] w-full py-16 px-4 relative group">
+    <div className="max-w-[1300px] h-[700px] w-full py-16 px-4 relative group">
   
       {/* Slider Container */}
       <div
