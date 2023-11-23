@@ -74,7 +74,7 @@ const Contact = () => {
           type="submit" // Ajoutez ceci pour indiquer que c'est un bouton de soumission
           className="text-black mt-10 bg-white p-3 w-[200px]"
         >
-          Envoyer ☞
+          Envoyez ☞
         </button>
       </form>
     </div>

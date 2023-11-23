@@ -15,7 +15,7 @@ const AddEmail = ({ email, setEmail, handleCreateEmail }: AddEmailProps) => {
         onClick={() => handleCreateEmail()}
         className=" text-white p-3 border text-sm"
       >
-        Accéder en avant première ☞
+        Accédez en avant première ☞
       </button>
     </div>
   );
