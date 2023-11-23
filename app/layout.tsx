@@ -16,7 +16,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="32*32"/>
+        <link rel="icon" href="/favicon.ico" sizes="64*64"/>
       </head>
       <body className={cormorant.className}>
         <Navbar />
