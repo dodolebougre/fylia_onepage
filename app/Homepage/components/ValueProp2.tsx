@@ -5,7 +5,7 @@ const ValueProp2 = () => {
     <div className="mt-[100px]">
       <section className="lg:flex-row justify-center items-center flex flex-col ">
         <div
-          className=" rounded lg:text-left text-center  bg-white bg-opacity-10 p-5 text-white backdrop-blur shadow w-[400px] lg:w-[850px]
+          className=" rounded lg:text-left text-center  bg-white bg-opacity-10 p-7 text-white backdrop-blur shadow w-[400px] lg:w-[850px]
       "
         >
           <h1
@@ -26,7 +26,7 @@ const ValueProp2 = () => {
         </div>
         <div className="w-[400px] duration-300 transform hover:scale-105 ">
           <img
-            className="rounded shadow"
+            className="rounded shadow h-[320px]"
             src="https://images.unsplash.com/photo-1533158307587-828f0a76ef46?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
