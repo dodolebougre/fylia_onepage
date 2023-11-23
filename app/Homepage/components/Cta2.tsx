@@ -16,7 +16,8 @@ const Cta2 = () => {
           Nous allons sauver des milliers de souvenirs.
         </h2>
         <p className="mb-4 text-xl">Nous attendons le votre !</p>
-        <Button/>
+        <div className="mb-4">
+        <Button/></div>
       </div>
     </div>
   );
