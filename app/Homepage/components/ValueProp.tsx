@@ -15,7 +15,7 @@ const ValueProp = () => {
       </h2>
       <div>
         <div className="flex flex-col lg:flex-row">
-          <section className=" flex flex-col m-10 w-[400px] bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none"
+          <section className=" flex flex-col m-10 w-[400px] bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none lg:w-1/3"
         >
             <div className="flex flex-col items-center mb-3 lg:flex-row ">
               <div
@@ -32,7 +32,7 @@ const ValueProp = () => {
               histoire ✓
             </p>
           </section>
-          <section className="flex flex-col m-10 w-[400px] bg-gray bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none">
+          <section className="flex flex-col m-10 w-[400px] bg-gray bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none lg:w-1/3">
             <div className="flex flex-col items-center mb-3 lg:flex-row ">
               <div className="rounded-full bg-white bg-opacity-20 p-4 shadow-lg mr-5 duration-300 transform hover:scale-125">
                 <FaPaintBrush size={32} />
@@ -46,7 +46,7 @@ const ValueProp = () => {
               souvenir en véritable oeuvre d’art ☞
             </p>
           </section>
-          <section className="flex flex-col m-10 w-[400px] bg-gray bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none">
+          <section className="flex flex-col m-10 w-[400px] bg-gray bg-opacity-10 bg-white rounded p-4 backdrop-blur lg:bg-opacity-0 lg:border-none shadow lg:shadow-none lg:w-1/3">
             <div className="flex flex-col items-center mb-3 lg:flex-row ">
               <div className="rounded-full bg-white bg-opacity-20 p-4 shadow-lg mr-5 duration-300 transform hover:scale-125">
                 <MdFamilyRestroom size={32} />

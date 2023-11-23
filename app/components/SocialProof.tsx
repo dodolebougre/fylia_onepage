@@ -10,7 +10,7 @@ const SocialProof = () => {
         <div className=""></div>
         <div className=""></div>
         <div className="flex flex-col items-center  ">
-          <figure className="flex flex-col  bg-opacity-10 bg-white rounded p-4 backdrop-blur text-2xl text-center m-10 shadow duration-300 transform hover:scale-110 w-[400px] lg:w-[500px]">
+          <figure className="flex flex-col  bg-opacity-10 bg-white rounded p-4 backdrop-blur text-2xl text-center m-10 shadow w-[400px] lg:w-[800px]">
             <blockquote className="text-xl ">
               <p>
                 “Cette idée me parle, j’ai très envie de m’essayer à peindre

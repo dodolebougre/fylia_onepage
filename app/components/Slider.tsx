@@ -62,7 +62,15 @@ function App() {
   };
 
   return (
-    <div className="max-w-[1300px] h-[720px] w-full m-auto py-16 px-4 relative group">
+    <div className="flex flex-col items-center mt-[100px]">
+      <h2
+        className="text-center text-2xl md:text-2xl lg:text-3xl max-w-[400px] md:max-w-[600px] lg:max-w-[700px] font-semibold text-white mb-[-30px]text-center"
+        style={{ textShadow: "1px 1px 5px rgba(0, 0, 0, 0.5)" }}
+      >
+        ✦ Nos artistes au service de vos souvenirs ✦
+      </h2>
+    <div className="max-w-[1250px] h-[700px] w-full py-16 px-4 relative group">
+  
       {/* Slider Container */}
       <div
         style={{
@@ -72,7 +80,7 @@ function App() {
         className="w-full h-full rounded-1xl bg-center bg-cover rounded shadow"
       >
         {/* Slide Content */}
-        <div className="bg-white text-black bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[592px] text-center shadow">
+        <div className="bg-white text-black bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[570px] text-center shadow">
           <img
             className="w-20 h-20 object-cover shadow rounded"
             src={slides[currentIndex].profil}
@@ -110,7 +118,7 @@ function App() {
           </div>
         ))}
       </div>
-    </div>
+    </div></div>
   );
 }
 

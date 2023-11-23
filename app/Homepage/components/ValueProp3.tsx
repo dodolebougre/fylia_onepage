@@ -4,15 +4,14 @@ const ValueProp3 = () => {
   return (
     <div className="mt-[100px]">
       <section className="lg:flex-row justify-center items-center flex flex-col">
-        <div className=" w-[400px] duration-300 transform hover:scale-105 lg:ml-[150px] z-10">
-          <img className="rounded"
+        <div className=" w-[400px] duration-300 transform hover:scale-105 z-10">
+          <img className="rounded shadow"
             src="https://images.unsplash.com/photo-1595523052653-b9f497845c3d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGFydGlzdCUyMHBhaW50aW5nfGVufDB8fDB8fHww"
             alt=""
           />
         </div>
         <div
-          className="rounded lg:text-left text-center  bg-white bg-opacity-10 p-8 text-white backdrop-blur shadow w-[400px] lg:bg-opacity-0 lg:backdrop-blur-none lg:shadow-none lg:w-[800px]
-        lg:ml-[80px]"
+          className="rounded lg:text-left text-center  bg-white bg-opacity-10 p-8 text-white backdrop-blur shadow w-[400px] lg:w-[850px]"
         >
           <h1
             className="lg:text-6xl text-4xl "
