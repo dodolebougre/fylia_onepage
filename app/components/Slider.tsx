@@ -59,7 +59,7 @@ function App() {
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
         className="w-full h-full rounded-1xl bg-center bg-cover duration-500 rounded shadow"
       >
-        <div className="bg-black text-white bg-opacity-60 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center rounded shadow">
+        <div className="bg-white text-white bg-opacity-30 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center rounded shadow">
           <img
             className="w-20 h-20 object-cover shadow rounded"
             src={slides[currentIndex].profil}

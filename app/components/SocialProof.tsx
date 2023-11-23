@@ -11,7 +11,7 @@ const SocialProof = () => {
         <div className=""></div>
         <div className="flex flex-col items-center mx-auto max-w-2xl lg:max-w-4xl">
           <figure className="flex flex-col  bg-opacity-10 bg-white rounded p-4 backdrop-blur text-2xl text-center max-w-[400px] m-10 shadow duration-300 transform hover:scale-110">
-            <blockquote className=" ">
+            <blockquote className="text-xl ">
               <p>
                 “Cette idée me parle, j’ai très envie de m’essayer à peindre
                 les souvenirs d’une personne, c‘est assez réjouissant car c’est

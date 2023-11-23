@@ -9,11 +9,11 @@ const AddEmail = ({ email, setEmail, handleCreateEmail }: AddEmailProps) => {
         placeholder="Votre adresse email"
         onChange={(e) => setEmail(e.target.value)}
         value={email}
-        className=" border p-3 text-center text-black border-white"
+        className=" border p-3 text-center text-black border-white text-sm"
       />
       <button
         onClick={() => handleCreateEmail()}
-        className=" text-white p-3 border "
+        className=" text-white p-3 border text-sm"
       >
         Accéder en avant première ☞
       </button>
