@@ -8,7 +8,7 @@ const ValueProp3 = () => {
           <img src="/assets/image/bonhomme.png" alt="" />
         </div>
         <div
-          className="rounded lg:text-left text-center  bg-white bg-opacity-10 p-8 text-white backdrop-blur shadow max-w-[400px] lg:bg-opacity-0 lg:backdrop-blur-none lg:shadow-none lg:max-w-[800px]
+          className="rounded lg:text-left text-center  bg-white bg-opacity-10 p-8 text-white backdrop-blur shadow w-[400px] lg:bg-opacity-0 lg:backdrop-blur-none lg:shadow-none lg:w-[800px]
         lg:mr-[150px] "
         >
           <h1
