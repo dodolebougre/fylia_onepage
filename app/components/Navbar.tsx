@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav
       style={{ backgroundColor: `${color}` }}
-      className=" fixed left-0 top-0 w-full ease-in duration-300 z-10 text-lg first-letter:"
+      className=" fixed left-0 top-0 w-full ease-in duration-300 z-20 text-lg first-letter: "
     >
       <div className=" flex justify-between items-center p-3 text-white">
         <ScrollLink

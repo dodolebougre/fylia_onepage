@@ -14,13 +14,13 @@ interface Slide {
 function App() {
   const slides: Slide[] = [
     {
-      img: "/assets/image/FullSizeRender.png",
+      img: "https://images.unsplash.com/photo-1578926078693-4eb3d4499e43?q=80&w=2908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       profil:
         "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZlbnR1cmllciUyMHByb2ZpbHxlbnwwfHwwfHx8MA%3D%3D",
       name: "Timothé",
       lastName: "Lastella",
       age: "39 ans",
-      quote: "“Ma meilleure amie, ma confidente. Une femme tout en couleur qui a su ...”",
+      quote: "“Le plus beau voyage de ma vie dans le nord ouest de la France ...”",
     },
     {
       img: "/assets/image/provence.png",
@@ -72,7 +72,7 @@ function App() {
         className="w-full h-full rounded-1xl bg-center bg-cover rounded shadow"
       >
         {/* Slide Content */}
-        <div className="bg-purple-400 text-white bg-opacity-70 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[350px] text-center rounded shadow">
+        <div className="bg-white text-black bg-opacity-80 flex flex-col justify-center absolute top-1/2 transform -translate-y-1/2 p-6 ml-14 rounded-1xl items-center w-60 h-[592px] text-center shadow">
           <img
             className="w-20 h-20 object-cover shadow rounded"
             src={slides[currentIndex].profil}

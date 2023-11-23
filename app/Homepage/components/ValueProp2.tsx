@@ -5,7 +5,7 @@ const ValueProp2 = () => {
     <div className="mt-[100px]">
       <section className="lg:flex-row justify-center items-center flex flex-col">
         <div className=" rounded lg:text-left text-center  bg-white bg-opacity-10 p-8 text-white backdrop-blur shadow w-[400px] lg:bg-opacity-0 lg:backdrop-blur-none lg:shadow-none lg:w-[800px]
-        lg:ml-[150px] m-10 ">
+        lg:ml-[150px] ">
           <h1 className="lg:text-6xl text-4xl " style={{ textShadow: "1px 1px 5px rgba(0, 0, 0, 0.5)" }} >
             Rendez votre plus beau souvenir réel...
           </h1>
@@ -19,8 +19,8 @@ const ValueProp2 = () => {
             <li>✓ Transmettez vos plus belles émotions</li>
           </ul>
         </div>
-        <div className="lg:w-1/3 md:w-1/2 w-2/3 duration-300 transform hover:scale-105 lg:mr-[150px]">
-          <img src="/assets/image/bonhomme2.png" alt="" />
+        <div className="w-[400px] duration-300 transform hover:scale-105 lg:mr-[150px]">
+          <img  className="rounded" src="https://images.unsplash.com/photo-1533158307587-828f0a76ef46?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         </div>
       </section>
       <div className="flex items-center justify-center m-6">

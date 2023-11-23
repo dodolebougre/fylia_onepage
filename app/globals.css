@@ -13,9 +13,8 @@
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(100px);
+    overflow-x: hidden;
   }
-
-
 
 
 h1 {
