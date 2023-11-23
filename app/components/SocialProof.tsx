@@ -3,7 +3,7 @@ import React from "react";
 const SocialProof = () => {
   return (
     <div className="text-white flex flex-col items-center m-10">
-      <h2 className="text-center text-2xl mb-3 md:text-2xl lg:text-3xl max-w-[400px] md:max-w-[600px] lg:max-w-[700px] font-semibold "
+      <h2 className="text-center text-2xl mb-3 md:text-2xl lg:text-3xl max-w-[500px] md:max-w-[600px] lg:max-w-[700px] font-semibold "
         style={{ textShadow: "1px 1px 5px rgba(0, 0, 0, 0.5)" }}> Des artistes nous suivent</h2>
       <p>★★★★★</p>
       <section className="">

@@ -5,7 +5,7 @@ import Button from "../../components/Button/Button";
 const Hero = () => {
   return (
     <div id="hero">
-      <div className="flex items-center justify-center h-screen mb-12">
+      <div className="flex items-center justify-center h-screen">
         {/* Div pour l'arrière-plan avec le filtre de luminosité */}
         <div
           className="md:bg-fixed bg-center bg-cover object-cover"
