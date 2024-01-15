@@ -91,7 +91,7 @@ const ValueProp2 = () => {
               position={50}
               style={{
                 height: "60vh",
-                width: "100%",
+                width: "250px",
               }}
             />
           </div>
