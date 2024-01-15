@@ -14,6 +14,13 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
+
+    // Toggle overflow-x: hidden on the body when mobile menu is open
+    if (!nav) {
+      document.body.style.overflowX = "hidden";
+    } else {
+      document.body.style.overflowX = "auto";
+    }
   };
 
   useEffect(() => {
@@ -29,6 +36,11 @@ const Navbar = () => {
       }
     };
     window.addEventListener("scroll", changeColor);
+
+    // Cleanup event listener
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
   }, []);
 
   return (
@@ -61,24 +73,21 @@ const Navbar = () => {
         <div className="text-sm font-light hidden xl:flex gap-4">
           <ScrollLink to="parcours" smooth={true} duration={1500} offset={-50}>
             <p
-              className="p-2 cursor-pointer
-            hover:underline transition-transform duration-300"
+              className="p-2 cursor-pointer hover:underline transition-transform duration-300"
             >
               Les étapes à suivre
             </p>
           </ScrollLink>
           <ScrollLink to="creation" smooth={true} duration={1500} offset={-100}>
             <p
-              className="p-2 cursor-pointer
-            hover:underline transition-transform duration-300"
+              className="p-2 cursor-pointer hover:underline transition-transform duration-300"
             >
               Nos créations
             </p>
           </ScrollLink>
           <ScrollLink to="question" smooth={true} duration={1500} offset={-50}>
             <p
-              className="p-2
-          transition-transform duration-300  cursor-pointer hover:underline"
+              className="p-2 transition-transform duration-300 cursor-pointer hover:underline"
             >
               Des questions ?
             </p>
@@ -100,8 +109,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "xl:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center h-screen bg-black w-full text-center ease-in duration-300"
-              : "xl:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center h-screen bg-black text-center ease-in duration-300 w-full"
+              ? "xl:hidden fixed top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center h-screen bg-black w-full text-white transition-transform ease-in duration-300"
+              : "xl:hidden fixed left-full right-0 bottom-0 flex flex-col justify-center items-center h-screen bg-black text-white transition-transform ease-in duration-300 w-full"
           }
         >
           <div className="flex flex-col justify-center text-center items-center text-white">
