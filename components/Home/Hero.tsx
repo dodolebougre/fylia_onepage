@@ -4,7 +4,7 @@ import Swap from "./Swap";
 const Hero = () => {
   return (
     <div id="hero">
-      <div className="flex flex-col items-center justify-center h-screen border-b">
+      <div className="flex flex-col items-center justify-center h-screen">
         <div
           className="md:bg-fixed bg-center bg-cover object-cover"
           style={{
