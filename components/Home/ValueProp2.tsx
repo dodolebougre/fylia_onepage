@@ -38,7 +38,7 @@ const ValueProp2 = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-col max-w-[600px] duration-300 mx-[50px]">
+          <div className="flex flex-col max-w-[600px] duration-300 mx-[30px]">
             <div className="flex flex-row mt-5 ">
               <div className="border border-black overflow-hidden inline-block mr-2 mb-2 ">
                 <Image
@@ -91,7 +91,7 @@ const ValueProp2 = () => {
               position={50}
               style={{
                 height: "60vh",
-                width: "250px",
+                width: "300px",
               }}
             />
           </div>
