@@ -30,7 +30,7 @@ export default function Slider() {
               effect={"cards"}
               grabCursor={true}
               modules={[EffectCards]}
-              className="xl:w-[600px] xl:h-[600px] w-[300px] h-[300px]"
+              className="xl:w-[500px] xl:h-[500px] w-[300px] h-[300px]"
             >
               <SwiperSlide className="flex items-center justify-center border border-black">
                 <Image
@@ -38,7 +38,7 @@ export default function Slider() {
                   width={400}
                   height={400}
                   alt="Picture of the author"
-                  className="xl:w-[600px] w-[300px]"
+                  className="xl:w-[500px] w-[300px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center border border-black">
@@ -47,7 +47,7 @@ export default function Slider() {
                   width={400}
                   height={400}
                   alt="Picture of the author"
-                  className="xl:w-[600px] xl:h-[600px] w-[300px] h-[300px]"
+                  className="xl:w-[500px] xl:h-[500px] w-[300px] h-[300px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center border border-black">
@@ -56,7 +56,7 @@ export default function Slider() {
                   width={400}
                   height={400}
                   alt="Picture of the author"
-                  className="xl:w-[600px] xl:h-[600px] w-[300px] h-[300px]"
+                  className="xl:w-[500px] xl:h-[500px] w-[300px] h-[300px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center border border-black">
@@ -65,7 +65,7 @@ export default function Slider() {
                   width={400}
                   height={400}
                   alt="Picture of the author"
-                  className="xl:w-[600px] xl:h-[600px] w-[300px] h-[300px]"
+                  className="xl:w-[500px] xl:h-[500px] w-[300px] h-[300px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center border border-black">
@@ -74,7 +74,7 @@ export default function Slider() {
                   width={400}
                   height={400}
                   alt="Picture of the author"
-                  className="xl:w-[600px] xl:h-[600px] w-[300px] h-[300px]"
+                  className="xl:w-[500px] xl:h-[500px] w-[300px] h-[300px]"
                 />
               </SwiperSlide>
             </Swiper>
