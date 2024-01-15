@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Head from "next/head";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "../components/Footer/Footer";
@@ -12,11 +11,11 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <html lang="en">
       <head>
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1.0,  minimal-ui"
+          content="width=device-width, initial-scale=1.0, minimal-ui"
         />
         <script async src="https://tally.so/widgets/embed.js"></script>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
@@ -29,7 +28,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <Footer />
         </main>
       </body>
-    </>
+    </html>
   );
 };
 
