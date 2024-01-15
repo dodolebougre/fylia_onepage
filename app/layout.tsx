@@ -14,7 +14,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0,  minimal-ui"
+        />
         <script async src="https://tally.so/widgets/embed.js"></script>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
         <link rel="icon" href="/assets/icon/Logo Fylia (6).png" sizes="64*64" />
