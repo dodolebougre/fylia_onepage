@@ -18,7 +18,7 @@ export default function Slider() {
   return (
     <section
       id="creation"
-      className="p-12 items-center flex xl:flex-row flex-col justify-center text-black mb-10"
+      className="xl:p-12 items-center flex xl:flex-row flex-col justify-center text-black mb-20"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] xl:w-[150px] xl:mb-0 mb-10">
         Exemples
