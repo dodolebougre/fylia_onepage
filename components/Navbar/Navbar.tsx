@@ -50,7 +50,7 @@ const Navbar = () => {
         color: `${textColor}`,
         borderBottom: `1px solid ${borderColor}`,
       }}
-      className="fixed left-0 top-0 z-20 text-lg first-letter border-b border-solid"
+      className="fixed left-0 top-0 w-screen z-20 text-lg first-letter border-b border-solid"
     >
       <div className="flex items-center justify-between p-3">
         <div className="mt-6 mb-6 flex ml-4 ">
@@ -66,25 +66,29 @@ const Navbar = () => {
           <ScrollLink to="hero" smooth={true} duration={1500} offset={0}>
             <div>
               <h1 className="text-4xl cursor-pointer">fylia</h1>
-              <p className="font-light text-sm cursor-pointer">
-                Impression premium
-              </p>
+              <p className="font-light text-sm cursor-pointer">Impression premium</p>
             </div>
           </ScrollLink>
         </div>
         <div className="text-sm font-light hidden xl:flex gap-4">
           <ScrollLink to="parcours" smooth={true} duration={1500} offset={-50}>
-            <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
+            <p
+              className="p-2 cursor-pointer hover:underline transition-transform duration-300"
+            >
               Les étapes à suivre
             </p>
           </ScrollLink>
           <ScrollLink to="creation" smooth={true} duration={1500} offset={-100}>
-            <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
+            <p
+              className="p-2 cursor-pointer hover:underline transition-transform duration-300"
+            >
               Nos créations
             </p>
           </ScrollLink>
           <ScrollLink to="question" smooth={true} duration={1500} offset={-50}>
-            <p className="p-2 transition-transform duration-300 cursor-pointer hover:underline">
+            <p
+              className="p-2 transition-transform duration-300 cursor-pointer hover:underline"
+            >
               Des questions ?
             </p>
           </ScrollLink>

@@ -35,3 +35,9 @@ p {
 li {
   font-family: "Helvetica Neue";
 }
+
+@media (max-width: 568px) {
+  body {
+    position: fixed;
+  }
+}
