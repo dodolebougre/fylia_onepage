@@ -8,15 +8,24 @@
   box-sizing: border-box;
 }
 
-  html {
-    background-image: url("/assets/image/fond.png");
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(100px);
-    overflow-x: hidden;
-  }
-
+html {
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
 
 h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Athena";
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+}
+
+p {
+  font-family: "Helvetica Neue";
+}
+
+li {
+  font-family: "Helvetica Neue";
 }

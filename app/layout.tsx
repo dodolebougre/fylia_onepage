@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
-import { Cormorant } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
-
-const cormorant = Cormorant({ subsets: ["latin"] });
+import Footer from "../components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Fylia",
@@ -16,15 +12,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="64*64"/>
+        <script async src="https://tally.so/widgets/embed.js"></script>
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <link rel="icon" href="/assets/icon/Logo Fylia (6).png" sizes="64*64" />
       </head>
-      <body className={cormorant.className}>
-        <Navbar />
+      <body>
         <main>
           {children}
           <Analytics />
+          <Footer />
         </main>
-        <Footer />
       </body>
     </html>
   );
