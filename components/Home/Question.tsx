@@ -55,9 +55,9 @@ const Question = () => {
               className="p-4"
               indicator={({ isOpen }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[205px] ml-10" />
+                  <FaChevronDown className="md:ml-[175px] ml-10" />
                 ) : (
-                  <FaChevronLeft className="md:ml-[205px] ml-10" />
+                  <FaChevronLeft className="md:ml-[175px] ml-10" />
                 )
               }
               title="Combien de temps pour faire une impression ?"
@@ -89,9 +89,9 @@ const Question = () => {
               className="p-4"
               indicator={({ isOpen }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[300px] ml-[185px] " />
+                  <FaChevronDown className="md:ml-[300px] ml-[180px] " />
                 ) : (
-                  <FaChevronLeft className="md:ml-[300px] ml-[185px] " />
+                  <FaChevronLeft className="md:ml-[300px] ml-[180px] " />
                 )
               }
               key="4"
