@@ -6,7 +6,7 @@ const Hero = () => {
     <div id="hero">
       <div className="flex flex-col items-center justify-center h-screen">
         <div
-          className="md:bg-fixed bg-center bg-cover object-cover"
+          className="lg:bg-fixed bg-center bg-cover object-cover"
           style={{
             backgroundImage:
               'url("https://media.discordapp.net/attachments/1196351224044326933/1196488392792359013/supernoval_99898_a_cosy_living_room_with_a_colorful_wall_full_o_1d6f86e5-8f3e-4b59-be1a-8270c624e652.webp?ex=65b7cfa6&is=65a55aa6&hm=672fc23cb149185c86608d54e08f5bc143095f8236d9e7856fc32f40a686917e&=&format=webp&width=1766&height=990")',
