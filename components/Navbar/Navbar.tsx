@@ -62,7 +62,7 @@ const Navbar = () => {
           </a>
           <p className="lg:text-3xl text-2xl mt-[-5px]">🇫🇷</p>
         </div>
-        <div className="flex flex-col text-center xl:ml-[300px] mr-16">
+        <div className="flex flex-col text-center xl:ml-[300px] mr-18">
           <ScrollLink to="hero" smooth={true} duration={1500} offset={0}>
             <div>
               <h1 className="text-4xl cursor-pointer">fylia</h1>
