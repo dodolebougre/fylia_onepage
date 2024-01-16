@@ -28,7 +28,7 @@ const ParcoursClient = () => {
             <h1 className="text-xl mt-3">Etape 1</h1>
             <p className="font-light">
               Je sélectionne une photo, un style, un format et le support de ma
-              future impression
+              future impression.
             </p>
           </div>
 
@@ -45,8 +45,8 @@ const ParcoursClient = () => {
             <h1 className="text-xl  mt-3">Etape 2</h1>
             <p className="font-light">
               Nous utilisons l'intelligence artificielle pour génerer les
-              propositions, et faisons appel à nos designer pour les
-              personnaliser
+              propositions, et faisons appel à nos designers pour les
+              personnaliser.
             </p>
           </div>
           <div className="mt-10 min-w-[270px] w-[270px]  xl:text-right text-center xl:mr-10 mr-0">
@@ -65,7 +65,7 @@ const ParcoursClient = () => {
             <h1 className="text-xl  mt-3">Etape 3</h1>
             <p className="font-light">
               4 propositions sont faites par rapports à vos choix, et sont
-              envoyées sur votre boite mail
+              envoyées sur votre boite mail.
             </p>
           </div>
           <div className="mt-10 w-[270px] xl:text-right text-center">
@@ -84,7 +84,7 @@ const ParcoursClient = () => {
             <h1 className="text-xl  mt-3">Etape 4</h1>
             <p className="font-light">
               Si une proposition vous plait, nous l'imprimons sur le support de
-              votre choix et la faisons livrer chez vous
+              votre choix et la faisons livrer chez vous.
             </p>
           </div>
         </section>

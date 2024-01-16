@@ -43,7 +43,7 @@ const Question = () => {
               title="Quelle est le coût d’une oeuvre ?"
             >
               <p className="text-sm font-extralight text-start">
-                Le cout de l'oeuvre débutera à partir de 50€ et sera echelonné{" "}
+                Le cout de l'oeuvre débutera à partir de 50€ et augmentera
                 <br />
                 en fonction de plusieurs critères : <br /> - La taille <br />
                 - Le support <br />- Le nombre d'interventions de nos designers
@@ -60,13 +60,12 @@ const Question = () => {
                   <FaChevronLeft className="md:ml-[205px] ml-10" />
                 )
               }
-              title="Combien de temps pour faire une œuvre ?"
+              title="Combien de temps pour faire une impression ?"
             >
               <p className="text-sm font-extralight">
-                La rapidité d'impression peut être immédiate en cas de
-                satisfaction. <br /> Le nombre d'interventions de nos
-                designers peut varier en fonction des demandes,
-                <br /> ce qui peut entraîner un temps de fabrication plus long.
+                Grâce à l'IA, l'impression est instantanée. En engageant nos
+                designers, <br /> le temps de fabrication sera limité à un
+                maximum de 3 jours ouvrés.
               </p>
             </AccordionItem>
             <AccordionItem
@@ -83,7 +82,7 @@ const Question = () => {
               }
             >
               <p className="text-sm font-extralight">
-                Délai de livraison totale : 5 à 7 jours ouvrables.
+                Délai de livraison : 5 à 7 jours ouvrés.
               </p>
             </AccordionItem>
             <AccordionItem
@@ -100,7 +99,7 @@ const Question = () => {
               title="Y’a t’il des frais de livraison ?"
             >
               <p className="text-sm font-extralight">
-                Des frais de livraison de 7 euros seront imputés à votre
+                Des frais de livraison de 7 euros seront rajoutés à votre
                 commande.
               </p>
             </AccordionItem>

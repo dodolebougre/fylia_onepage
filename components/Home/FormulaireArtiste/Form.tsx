@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl mb-9 md:text-2xl lg:text-3xl text-center mt-10 p-2">
-        Vous êtes un artiste ou designer et êtes intéressés par une
+        Vous êtes un artiste ou un designer et êtes intéressé par une
         collaboration ?
       </h1>
       <form className="flex flex-col items-center" onSubmit={handleSubmit}>
