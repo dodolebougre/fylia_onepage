@@ -24,7 +24,7 @@ const Hero = () => {
             className="text-4xl tracking-tighter md:text-6xl lg:text-7xl mb-5"
             style={{ textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)" }}
           >
-            Vos plus belles photos en poster
+            Votre photo préférée en poster
           </h1>
           <h2 className="max-w-2xl mx-auto text-xl tracking-normal sm:text-2xs md:text-1xl lg:text-2xl mb-9 font-light ">
             Des impressions murales entièrement personnalisées. Donnez à vos
