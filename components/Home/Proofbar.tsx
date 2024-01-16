@@ -1,7 +1,7 @@
 import React from "react";
 const Proofbar = () => {
   return (
-    <div className="flex justify-between pt-10 bg-[#0a2f59] lg:mt-[0px] mt-[-118px] border-t border-white">
+    <div className="flex justify-between pt-10 bg-[#0a2f59] xl:mt-[0px] mt-[-118px] border-t border-white">
       <img
         src="/assets/icon/emlyon.png"
         alt="emlyon"
