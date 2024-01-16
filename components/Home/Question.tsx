@@ -99,7 +99,7 @@ const Question = () => {
               title="Y’a t’il des frais de livraison ?"
             >
               <p className="text-sm font-extralight">
-                Des frais de livraison de 7 euros seront rajoutés à votre
+                Des frais de livraison de 10 euros seront rajoutés à votre
                 commande.
               </p>
             </AccordionItem>
