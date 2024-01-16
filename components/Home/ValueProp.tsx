@@ -14,7 +14,7 @@ const ValueProp = () => {
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] xl:w-[150px]">
         Notre plus-value
       </h1>
-      <section className="flex flex-col items-center p-4 border border-white mt-10 xl:mt-0 xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
+      <section className="flex flex-col items-center p-[12px]  border border-white mt-10 xl:mt-0 xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
         <div className="flex flex-col items-center">
           <div>
             <CiPen className="text-white text-4xl hover:scale-110 transition-transform duration-300" />
@@ -28,7 +28,7 @@ const ValueProp = () => {
           créer un poster qui représente votre plus beau moment ✓
         </p>
       </section>
-      <section className="flex flex-col bg-gray p-4 border border-white xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
+      <section className="flex flex-col bg-gray p-[12px] border border-white xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
         <div className="flex flex-col items-center">
           <div>
             <GiSolidLeaf className="text-white text-4xl hover:scale-110 transition-transform duration-300" />
@@ -39,10 +39,11 @@ const ValueProp = () => {
         </div>
         <p className="text-lg text-center font-light">
           Imprimés avec des encres de haute qualité sur des matériaux durables
-          et légers, nos impressions offrent une netteté d'image exceptionnelle ☞
+          et légers, nos impressions offrent une netteté d'image exceptionnelle
+          ☞
         </p>
       </section>
-      <section className="flex flex-col p-4 border border-white  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">
+      <section className="flex flex-col p-[12px]  border border-white  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">
         <div className="flex flex-col items-center">
           <div>
             <MdHistoryEdu className="text-white text-4xl hover:scale-110 transition-transform duration-300" />
