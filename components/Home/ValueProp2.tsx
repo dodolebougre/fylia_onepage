@@ -18,7 +18,7 @@ const ValueProp2 = () => {
       "
           >
             <h1 className="xl:text-6xl text-4xl mb-5">
-              Transformez vos photos en œuvre d'art
+              Transformez votre photo en œuvre d'art
             </h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
               Trouvez le style qui vous convient !
@@ -100,11 +100,11 @@ const ValueProp2 = () => {
               Redonnez du sens à vos souvenirs
             </h1>
             <p className="text-2xl mt-4 font-light">
-              Exposez vos plus belles photos chez vous !
+              Exposez votre plus belle création artistique chez vous !
             </p>
             <ul className="text-1xl xl:text-lg md:text-lg mt-3 font-light">
-              <li>✓ Des impressions prémiums adaptées à vos goûts</li>
-              <li>✓ Des prestations entièrement personnalisables </li>
+              <li>✓ Une impression premium adaptée à vos goûts</li>
+              <li>✓ Une prestation entièrement personnalisable </li>
               <li>✓ En seulement quelques clics</li>
             </ul>
             <div className="flex flex-col xl:items-end items-center mt-6">

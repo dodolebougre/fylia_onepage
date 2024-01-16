@@ -39,7 +39,7 @@ const ValueProp = () => {
         </div>
         <p className="text-lg text-center font-light">
           Imprimés avec des encres de haute qualité sur des matériaux durables
-          et léger, nos impressions offrent une netteté d'image exceptionnelle ☞
+          et légers, nos impressions offrent une netteté d'image exceptionnelle ☞
         </p>
       </section>
       <section className="flex flex-col p-4 border border-white  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">
