@@ -21,7 +21,7 @@ export default function Slider() {
       className="xl:p-12 items-center flex xl:flex-row flex-col justify-center text-black mb-20"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] xl:w-[150px] xl:mb-0 mb-10">
-        Exemples
+        Nos créations
       </h1>
       <div className="flex flex-col items-center justify-center border border-black">
         <div className="flex xl:flex-row flex-col xl:w-[1200px] md:w-[600px] w-[400px]">
