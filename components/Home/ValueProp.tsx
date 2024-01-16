@@ -9,7 +9,7 @@ const ValueProp = () => {
   return (
     <div
       id="value"
-      className="xl:pt-[80px] pb-[80px] text-white flex flex-col items-center justify-center xl:flex-row bg-[#0a2f59] pt-10"
+      className="xl:pt-[80px] pb-[80px] text-white flex flex-col items-center justify-center xl:flex-row bg-[#163D48] pt-10"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] xl:w-[150px]">
         Notre plus-value

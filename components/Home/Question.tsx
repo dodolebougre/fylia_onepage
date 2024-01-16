@@ -8,7 +8,7 @@ const Question = () => {
   return (
     <div
       id="question"
-      className=" text-white bg-[#0a2f59] flex flex-col items-center justify-center xl:flex-row pt-20 pb-20 xl:mt-10"
+      className=" text-white bg-[#163D48] flex flex-col items-center justify-center xl:flex-row pt-20 pb-20 xl:mt-10"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px] mb-10">
         F.A.Q

@@ -5,7 +5,7 @@ const ParcoursClient = () => {
   return (
     <div
       id="parcours"
-      className="mb-10 text-white bg-[#0a2f59]  flex flex-col items-center justify-center xl:flex-row pt-5 text-center"
+      className="mb-10 text-white bg-[#163D48]  flex flex-col items-center justify-center xl:flex-row pt-5 text-center"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px]">
         Parcours
