@@ -5,8 +5,7 @@ import Footer from "../components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Fylia",
-  description:
-    "Création d'impression murale premium à partir de vos plus belles photos",
+  description: "",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

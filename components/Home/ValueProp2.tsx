@@ -7,7 +7,10 @@ import {
 
 const ValueProp2 = () => {
   return (
-    <div id="services" className="mb-10 text-black bg-white flex flex-col items-center justify-center xl:flex-row pt-10 pb-10">
+    <div
+      id="services"
+      className="mb-10 text-black bg-white flex flex-col items-center justify-center xl:flex-row pt-10 pb-10"
+    >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px]">
         Nos services
       </h1>
@@ -18,17 +21,17 @@ const ValueProp2 = () => {
       "
           >
             <h1 className="xl:text-6xl text-4xl mb-5">
-              Nous transformons votre espace en un meilleur lieu de travail
+              Nous transformons vos espaces de travail
             </h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
-              Nous trouvons l'artiste qui vous convient !
+              Des offres adaptées à vos besoins
             </p>
             <ul className="text-1xl xl:text-lg mt-3 font-extralight">
-              <li>Rassemblez l'équipe et parlez de vos valeurs ✓</li>
+              <li>Nous trouvons l'artiste qui vous convient ! ✓</li>
               <li>
-                Faites participez votre équipe à la réalisation des oeuvres✓
+                Faites participer vos équipes à la réalisation des œuvres ✓
               </li>
-              <li>Créez des oeuvres qui vous ressemble ✓</li>
+              <li>Créez un lieu de convivialité qui vous ressemble ✓</li>
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">
               <button
@@ -44,29 +47,29 @@ const ValueProp2 = () => {
             <div className="flex flex-row mt-5 ">
               <div className="border border-black overflow-hidden inline-block mr-2 mb-2 ">
                 <Image
-                  src="/assets/image/montblancvalueprop.png"
-                  width={246}
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417675660_823248099566448_7461296100062776775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=Y2pKUKeDyu4AX_GiHa4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSAMA-u8YEO7R7IVh6XLUr9H-Xbp1kIZ34WU23UZJTF-g&oe=65D8EB54"
+                  width={260}
                   height={500}
-                  alt="Picture of the author"
+                  alt="Peintre"
                   className="transition-transform duration-500 hover:scale-110"
                 />
               </div>
               <div className="overflow-hidden inline-block mb-2 border border-black ">
                 <Image
-                  src="/assets/image/montblancvalueprop2.png"
-                  width={246}
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417739255_1301157630579103_2380437704024145629_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=5aawG8O6FPUAX8hB70k&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQtpzku79oLpHNcMGfm8PZgGeAszyAo0jea2pxBHtevmQ&oe=65D8C639"
+                  width={230}
                   height={500}
-                  alt="Picture of the author"
+                  alt="Bureaux"
                   className="transition-transform duration-500 hover:scale-110 scale-105"
                 />
               </div>
             </div>
             <div className="border border-black overflow-hidden inline-block mb-5 ">
               <Image
-                src="/assets/image/imagevalueprop3.png"
+                src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417818702_1120030429182021_293103289151597963_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=3vJ3xtimlDsAX_lDQHp&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSoQgkG0zlqfqrGxrd-r-Qi2fiuwL00FqFp3neaG7uauA&oe=65D8D84A"
                 width={500}
                 height={500}
-                alt="Picture of the author"
+                alt="Fresque"
                 className="transition-transform duration-500 scale-105 hover:scale-110"
               />
             </div>

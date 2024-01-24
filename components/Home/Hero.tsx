@@ -29,7 +29,11 @@ const Hero = () => {
             Un espace de travail idéal grâce <br />
             <Typewriter
               options={{
-                strings: ["à nos prestation", "à nos artistes","à l'art sur mesure" ],
+                strings: [
+                  "à nos prestations",
+                  "à nos artistes",
+                  "à l'art sur mesure",
+                ],
                 autoStart: true,
                 loop: true,
                 delay: 80,
@@ -38,7 +42,9 @@ const Hero = () => {
             />
           </h1>
           <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-thin ">
-            Nous 
+            Nous vous mettons en relation avec l'artiste parfait, pour dynamiser
+            et mettre en avant vos équipes et vos valeurs à travers une
+            experience unique.
           </h2>
           <button
             className="font-light border p-4 hover:bg-white hover:text-black"
