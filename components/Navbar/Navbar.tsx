@@ -5,12 +5,14 @@ import { BsInstagram } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
   const [borderColor, setBorderColor] = useState("white");
+  const [showScrolledImage, setShowScrolledImage] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -29,10 +31,12 @@ const Navbar = () => {
         setColor("#ffffff");
         setTextColor("#000000");
         setBorderColor("#000000");
+        setShowScrolledImage(true);
       } else {
         setColor("transparent");
         setTextColor("#ffffff");
         setBorderColor("#ffffff");
+        setShowScrolledImage(false);
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -60,27 +64,35 @@ const Navbar = () => {
           <a href="https://www.instagram.com/fylia.art/">
             <BsInstagram className="mr-3 text-1xl lg:text-2xl" />
           </a>
-          <p className="lg:text-3xl text-2xl mt-[-5px]">🇫🇷</p>
         </div>
-        <div className="flex flex-col text-center xl:ml-[300px] mr-20">
+        <div className="flex flex-col xl:ml-[300px] mr-9 text-center">
           <ScrollLink to="hero" smooth={true} duration={1500} offset={0}>
-            <div>
-              <h1 className="text-4xl cursor-pointer">fylia</h1>
-              <p className="font-light text-sm cursor-pointer">
-                Impression premium
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                alt="Navbar Image"
+                src={
+                  showScrolledImage
+                    ? "/assets/icon/fylia black.png"
+                    : "/assets/icon/fylia white.png"
+                }
+                height={80}
+                width={80}
+              />
+              <p className="font-thin text-sm cursor-pointer text-center">
+                Feel good by art
               </p>
             </div>
           </ScrollLink>
         </div>
-        <div className="text-sm font-light hidden xl:flex gap-4">
-          <ScrollLink to="parcours" smooth={true} duration={1500} offset={-50}>
+        <div className="text-sm font-thin hidden xl:flex gap-4">
+          <ScrollLink to="value" smooth={true} duration={1500} offset={-50}>
             <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
-              Les étapes à suivre
+              Nos avantages
             </p>
           </ScrollLink>
-          <ScrollLink to="creation" smooth={true} duration={1500} offset={-100}>
+          <ScrollLink to="services" smooth={true} duration={1500} offset={-100}>
             <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
-              Nos créations
+              Nos services
             </p>
           </ScrollLink>
           <ScrollLink to="question" smooth={true} duration={1500} offset={-50}>
@@ -113,17 +125,17 @@ const Navbar = () => {
             <Link
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
-              href="#parcours"
+              href="#value"
             >
-              Les étapes à suivre
+              Nos avantages
             </Link>
 
             <Link
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
-              href="#creation"
+              href="#services"
             >
-              Nos créations
+              Nos services
             </Link>
 
             <Link

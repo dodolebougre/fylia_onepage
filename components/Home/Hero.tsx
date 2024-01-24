@@ -1,15 +1,17 @@
+"use client";
 import React from "react";
 import Swap from "./Swap";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
     <div id="hero">
       <div className="flex flex-col items-center justify-center h-screen">
         <div
-          className="xl:bg-fixed bg-center bg-cover object-cover"
+          className="xl:bg-fixed bg-center bg-cover object-cover bg-[#215A69]"
           style={{
             backgroundImage:
-              'url("https://media.discordapp.net/attachments/1196351224044326933/1196488392792359013/supernoval_99898_a_cosy_living_room_with_a_colorful_wall_full_o_1d6f86e5-8f3e-4b59-be1a-8270c624e652.webp?ex=65b7cfa6&is=65a55aa6&hm=672fc23cb149185c86608d54e08f5bc143095f8236d9e7856fc32f40a686917e&=&format=webp&width=1766&height=990")',
+              'url("https://media.discordapp.net/attachments/1176884287925145653/1199255001676132454/supernoval_99898_a_coworking_space_with_lot_of_painting_colored_48e0fb64-ea30-4474-b907-5fb18d08ddcd.png?ex=65c1e041&is=65af6b41&hm=0af6bed162aca9a349ceaa60666946a280dbb1dddb427b6f099821d3c6812670&=&format=webp&quality=lossless&width=1766&height=990")',
             filter: "brightness(0.4)",
             position: "absolute",
             top: 0,
@@ -24,18 +26,26 @@ const Hero = () => {
             className="text-4xl tracking-tighter md:text-6xl lg:text-7xl mb-5"
             style={{ textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)" }}
           >
-            Votre photo préférée en poster
+            Un espace de travail idéal grâce <br />
+            <Typewriter
+              options={{
+                strings: ["à nos prestation", "à nos artistes","à l'art sur mesure" ],
+                autoStart: true,
+                loop: true,
+                delay: 80,
+                deleteSpeed: 40,
+              }}
+            />
           </h1>
-          <h2 className="max-w-2xl mx-auto text-xl tracking-normal sm:text-2xs md:text-1xl lg:text-2xl mb-9 font-light ">
-            Des impressions murales entièrement personnalisées. Donnez à vos
-            photos des allures d'oeuvre d'art.
+          <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-thin ">
+            Nous 
           </h2>
           <button
             className="font-light border p-4 hover:bg-white hover:text-black"
             data-tally-open="mOGBWY"
             data-tally-layout="modal"
           >
-            Personnalisez votre poster ☞
+            Nos services ☞
           </button>
         </div>
         <Swap />

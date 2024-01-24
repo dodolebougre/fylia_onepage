@@ -5,91 +5,91 @@ const ParcoursClient = () => {
   return (
     <div
       id="parcours"
-      className="mb-10 text-white bg-[#163D48]  flex flex-col items-center justify-center xl:flex-row pt-5 text-center"
+      className="mb-10 text-black bg-gradient-to-r  from-white via-slate-100 to-white  flex flex-col items-center justify-center xl:flex-row pt-5 text-center"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px]">
-        Parcours
+        Etapes à suivre
       </h1>
       <div className="md:max-w-[1200px] max-w-[400px] mb-10">
         <section className="xl:flex-row justify-center items-center flex flex-col">
           <div className="mt-10 w-[270px] xl:text-right text-center xl:mr-10 mr-0">
             <div
-              className="border border-black
+              className="border border-black 
       "
             >
               <Image
-                alt="A la montagne"
-                src="https://media.discordapp.net/ephemeral-attachments/1092492867185950852/1193603191032524840/amis_qui_campent.jpg?ex=65b68b18&is=65a41618&hm=f30fcb9e5db5a67ecfce600de8840474c55dca3e54daec6088b23fd302c7fbab&=&format=webp&width=690&height=990"
-                width={500}
-                height={360}
-                className="h-[360px]"
+                alt="Formulaire à remplir par l'entreprise"
+                src="https://images.unsplash.com/photo-1541560052-5e137f229371?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width={270}
+                height={200}
+                className="h-[400px]"
               />
             </div>
             <h1 className="text-xl mt-3">Etape 1</h1>
             <p className="font-light">
-              Je sélectionne une photo, un style, un format et le support de ma
-              future impression.
+              Vous remplissez le <strong> formulaire d'inscription </strong>pour
+              prendre contact avec nous.
             </p>
           </div>
 
           <div className=" mt-16 w-[270px]  xl:text-right text-center xl:mr-10 mr-0">
             <div className="border border-black ">
               <Image
-                alt="Artiste peintre"
-                src="https://images.unsplash.com/photo-1621609764710-57a57cb444f5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                width={500}
-                height={360}
-                className="h-[360px]"
+                alt="Formulaire"
+                src="https://images.unsplash.com/photo-1613483811511-72729fa16112?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width={270}
+                height={380}
+                className="h-[400px]"
               />
             </div>
             <h1 className="text-xl  mt-3">Etape 2</h1>
             <p className="font-light">
-              Nous utilisons l'intelligence artificielle pour génerer les
-              propositions, et faisons appel à nos designers pour les
-              personnaliser.
+              Nous vous mettons avec <strong>l'artiste parfait</strong> en amont
+              en identifiant, le type de l'entreprise, son image et son
+              implantation.
             </p>
           </div>
-          <div className="mt-10 min-w-[270px] w-[270px]  xl:text-right text-center xl:mr-10 mr-0">
+          <div className="mt-10 w-[270px]  xl:text-right text-center xl:mr-10 mr-0">
             <div
               className="border border-black 
       "
             >
               <Image
-                alt="Proposition de tableau"
-                src="https://media.discordapp.net/attachments/1176824010663796818/1193604361570500629/supernoval_99898_A_painting_in_the_style_of_calligraphy-inspire_d0134a45-657b-4fbe-a99b-8b9e60220d32.png?ex=65b68c2f&is=65a4172f&hm=27f6367f22f7caf5c344004c95b82184bca31763296d267c365960970229f8ee&=&format=webp&quality=lossless&width=688&height=990"
-                width={500}
-                height={600}
-                className="h-[360px]"
+                alt="Evenement Fylia"
+                src="https://images.unsplash.com/photo-1603202662706-62ead3176b8f?q=80&w=3069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width={270}
+                height={380}
+                className="h-[400px]"
               />
             </div>
             <h1 className="text-xl  mt-3">Etape 3</h1>
             <p className="font-light">
-              4 propositions sont faites par rapports à vos choix, et sont
-              envoyées sur votre boite mail.
+              Nous trouvons une date commune entre l'entreprise et l'artiste et
+              mettons en place l'evenement clé en main.
             </p>
           </div>
-          <div className="mt-10 w-[270px] xl:text-right text-center">
+          <div className="mt-16 w-[270px] xl:text-right text-center">
             <div
               className="border border-black
       "
             >
               <Image
-                alt="contact avec artiste"
-                src="https://images.unsplash.com/photo-1616422403639-282145aa3e73?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                width={500}
-                height={500}
-                className="h-[360px]"
+                alt="entreprise comblé grâce a notre offre B2B"
+                src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width={270}
+                height={380}
+                className="h-[400px]"
               />
             </div>
             <h1 className="text-xl  mt-3">Etape 4</h1>
             <p className="font-light">
-              Si une proposition vous plait, nous l'imprimons sur le support de
-              votre choix et la faisons livrer chez vous.
+              Vous repartez avec votre oeuvre sur mesure (fresque, tableau ...)
+              confectionné à l'image de votre entreprise.
             </p>
           </div>
         </section>
         <button
-          className="font-light border p-4 hover:bg-white hover:text-black m-10"
+          className="font-light border bg-gradient-to-r hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600 text-white  p-4  m-10"
           data-tally-open="mOGBWY"
           data-tally-layout="modal"
         >

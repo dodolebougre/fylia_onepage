@@ -11,13 +11,19 @@ import { createRoot } from "react-dom/client";
 import RGPD from "./RGPD";
 import CGV from "./CGV";
 import Paiement from "./Paiement";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="p-10 flex flex-col mt-1xl  text-black border-top border-black font-light">
       <section className="flex xl:flex-row flex-col lg:justify-between">
         <div className="flex flex-col items-center m-3 ">
-          <h1 className="text-5xl">fylia</h1>
+          <Image
+            alt="Navbar Image"
+            src={"/assets/icon/fylia black.png"}
+            height={100}
+            width={100}
+          />
           <div className="mt-6 mb-6 flex ml-4">
             <a href="https://www.linkedin.com/company/fylia/">
               <SiLinkedin className="mr-3 text-2xl " />

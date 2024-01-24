@@ -19,7 +19,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         />
         <script async src="https://tally.so/widgets/embed.js"></script>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
-        <link rel="icon" href="/assets/icon/Logo Fylia (6).png" sizes="64*64" />
+        <link rel="icon" sizes="64*64" href="/assets/icon/fyliaicon.png" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500;600;700&family=Philosopher:wght@400;700&family=Roboto:wght@100&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body>
         <main>

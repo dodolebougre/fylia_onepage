@@ -8,18 +8,18 @@ const Question = () => {
   return (
     <div
       id="question"
-      className=" text-white bg-[#163D48] flex flex-col items-center justify-center xl:flex-row pt-20 pb-20 xl:mt-10"
+      className=" text-black bg-gradient-to-r  from-white via-slate-100 to-white flex flex-col items-center justify-center xl:flex-row pt-20 pb-20 xl:mt-10"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px] mb-10">
         F.A.Q
       </h1>
-      <div className="xl:w-[1200px] md:w-[600px] w-[360px]  flex xl:flex-row flex-col border border-white items-center justify-center">
+      <div className="xl:w-[1200px] md:w-[600px] w-[360px]  flex xl:flex-row flex-col border border-black items-center justify-center">
         <div className="md:w-[600px] flex flex-col items-center justify-center text-center">
           <h1 className=" w-[300px] text-2xl md:text-2xl lg:text-3xl text-center mt-10 ">
             Vous ne trouvez pas la réponse à votre question ?
           </h1>
           <button
-            className="font-light border p-4 m-10 text-white hover:bg-white hover:text-black"
+            className="bg-gradient-to-r font-light border p-4 m-10 text-white hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600"
             data-tally-open="mVJ97v"
             data-tally-layout="modal"
             data-tally-emoji-animation="wave"

@@ -7,26 +7,28 @@ import {
 
 const ValueProp2 = () => {
   return (
-    <div className="mb-10 text-black bg-white flex flex-col items-center justify-center xl:flex-row pt-10 pb-10">
+    <div id="services" className="mb-10 text-black bg-white flex flex-col items-center justify-center xl:flex-row pt-10 pb-10">
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px]">
-        Notre proposition
+        Nos services
       </h1>
-      <div className="md:max-w-[1200px] max-w-[360px]">
+      <div className="xl:w-[1200px] md:w-[600px]  w-[360px]">
         <section className="xl:flex-row justify-center items-center flex flex-col border border-black mt-10">
           <div
             className="flex flex-col xl:text-left text-center p-8 max-w-[600px]
       "
           >
             <h1 className="xl:text-6xl text-4xl mb-5">
-              Transformez votre photo en œuvre d'art
+              Nous transformons votre espace en un meilleur lieu de travail
             </h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
-              Trouvez le style qui vous convient !
+              Nous trouvons l'artiste qui vous convient !
             </p>
             <ul className="text-1xl xl:text-lg mt-3 font-extralight">
-              <li>Créez une oeuvre qui vous ressemble ✓</li>
-              <li>Faites part de vos moments les plus extraordinaires ✓</li>
-              <li>Transmettez vos plus belles émotions ✓</li>
+              <li>Rassemblez l'équipe et parlez de vos valeurs ✓</li>
+              <li>
+                Faites participez votre équipe à la réalisation des oeuvres✓
+              </li>
+              <li>Créez des oeuvres qui vous ressemble ✓</li>
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">
               <button
@@ -97,10 +99,11 @@ const ValueProp2 = () => {
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
             <h1 className="xl:text-6xl text-4xl mb-4">
-              Redonnez du sens à vos souvenirs
+              Nous utilison les oeuvres de notre artiste dans votre branding et
+              communication
             </h1>
             <p className="text-2xl mt-4 font-light">
-              Exposez votre plus belle création artistique chez vous !
+              Exposez votre plus belle création sur votre produit !
             </p>
             <ul className="text-1xl xl:text-lg md:text-lg mt-3 font-light">
               <li>✓ Une impression premium adaptée à vos goûts</li>

@@ -70,7 +70,7 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="border p-4 font-light text-center hover:bg-black hover:text-white border-black m-10"
+          className="border p-4 font-light text-center text-white m-10 bg-gradient-to-r hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600"
         >
           Contactez nous ☞
         </button>
