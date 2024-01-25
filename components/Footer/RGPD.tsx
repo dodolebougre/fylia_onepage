@@ -24,9 +24,9 @@ const MyComponent = () => {
   };
 
   return (
-    <div className="font-extralight">
+    <div className="font-light">
       <button
-        className="cursor-pointer hover:font-normal tracking-tight"
+        className="cursor-pointer hover:font-normal"
         onClick={() => setIsOpen(true)}
       >
         Politique de confidentialité

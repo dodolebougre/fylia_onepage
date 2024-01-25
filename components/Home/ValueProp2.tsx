@@ -50,7 +50,7 @@ const ValueProp2 = () => {
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417675660_823248099566448_7461296100062776775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=Y2pKUKeDyu4AX_GiHa4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSAMA-u8YEO7R7IVh6XLUr9H-Xbp1kIZ34WU23UZJTF-g&oe=65D8EB54"
                   width={260}
                   height={500}
-                  alt="Peintre"
+                  alt="P"
                   className="transition-transform duration-500 hover:scale-110"
                 />
               </div>
@@ -63,15 +63,6 @@ const ValueProp2 = () => {
                   className="transition-transform duration-500 hover:scale-110 scale-105"
                 />
               </div>
-            </div>
-            <div className="border border-black overflow-hidden inline-block mb-5 ">
-              <Image
-                src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417818702_1120030429182021_293103289151597963_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=3vJ3xtimlDsAX_lDQHp&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSoQgkG0zlqfqrGxrd-r-Qi2fiuwL00FqFp3neaG7uauA&oe=65D8D84A"
-                width={500}
-                height={500}
-                alt="Fresque"
-                className="transition-transform duration-500 scale-105 hover:scale-110"
-              />
             </div>
           </div>
         </section>

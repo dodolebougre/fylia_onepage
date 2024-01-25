@@ -1,8 +1,8 @@
 import React from "react";
 
 import { CiPen } from "react-icons/ci";
-import { GiSolidLeaf } from "react-icons/gi";
-import { MdHistoryEdu } from "react-icons/md";
+import { PiLeafLight } from "react-icons/pi";
+import { PiClockCountdownLight } from "react-icons/pi";
 
 const ValueProp = () => {
   return (
@@ -32,7 +32,7 @@ const ValueProp = () => {
       <section className="flex flex-col bg-gray p-6 border border-black xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
         <div className="flex flex-col items-center">
           <div>
-            <GiSolidLeaf className="text-4xl hover:scale-110 transition-transform duration-300" />
+            <PiLeafLight className="text-4xl hover:scale-110 transition-transform duration-300" />
           </div>
           <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
             Bien-être
@@ -48,17 +48,16 @@ const ValueProp = () => {
       <section className="flex flex-col p-6  border border-black  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">
         <div className="flex flex-col items-center">
           <div>
-            <MdHistoryEdu className=" text-4xl hover:scale-110 transition-transform duration-300" />
+            <PiClockCountdownLight className=" text-4xl hover:scale-110 transition-transform duration-300" />
           </div>
           <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5 text-center">
             Avantages financiers
           </h1>
         </div>
         <p className="text-lg text-center font-light">
-          Participez à une véritable action de <strong>mécénat</strong> ,
-          entièrement <strong>déductible </strong> de l’ensemble des loyers du{" "}
-          <strong>résultat imposable </strong>
-          de l’entreprise. ✶
+          En achetant une ou plusieurs œuvres d’arts et en{" "}
+          <strong>soutenant nos artistes</strong> , votre entreprise est
+          éligible à une <strong>déduction d’impôts sur 5 ans. </strong> ✶
         </p>
       </section>
     </div>

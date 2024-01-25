@@ -2,6 +2,7 @@
 import React from "react";
 import Swap from "./Swap";
 import Typewriter from "typewriter-effect";
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -41,18 +42,16 @@ const Hero = () => {
               }}
             />
           </h1>
-          <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-thin ">
+          <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-light">
             Nous vous mettons en relation avec l'artiste parfait, pour dynamiser
             et mettre en avant vos équipes et vos valeurs à travers une
             experience unique.
           </h2>
-          <button
-            className="font-light border p-4 hover:bg-white hover:text-black"
-            data-tally-open="mOGBWY"
-            data-tally-layout="modal"
-          >
-            Nos services ☞
-          </button>
+          <ScrollLink to="services" smooth={true} duration={1500} offset={0}>
+            <button className="font-light border p-4 hover:bg-white hover:text-black">
+              Nos services ☞
+            </button>
+          </ScrollLink>
         </div>
         <Swap />
       </div>

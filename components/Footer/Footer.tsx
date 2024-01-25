@@ -24,6 +24,7 @@ const Footer = () => {
             height={100}
             width={100}
           />
+
           <div className="mt-6 mb-6 flex ml-4">
             <a href="https://www.linkedin.com/company/fylia/">
               <SiLinkedin className="mr-3 text-2xl " />
@@ -43,10 +44,10 @@ const Footer = () => {
               <p className="hover:font-normal">Fylia</p>
             </Link>
             <Link href="#parcours">
-              <p className="hover:font-normal">Les étapes à suivre</p>
+              <p className="hover:font-normal">Nos avantages</p>
             </Link>
             <Link href="#creation">
-              <p className="hover:font-normal">Nos créations</p>
+              <p className="hover:font-normal">Nos services</p>
             </Link>
             <Link href="#question">
               <p className="hover:font-normal">Des questions ?</p>

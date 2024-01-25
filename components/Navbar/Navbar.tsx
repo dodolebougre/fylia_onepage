@@ -77,14 +77,15 @@ const Navbar = () => {
                 }
                 height={80}
                 width={80}
+                className="cursor-pointer"
               />
-              <p className="font-thin text-sm cursor-pointer text-center">
+              <p className="font-light text-sm text-center cursor-pointer">
                 Feel good by art
               </p>
             </div>
           </ScrollLink>
         </div>
-        <div className="text-sm font-thin hidden xl:flex gap-4">
+        <div className="text-sm font-light hidden xl:flex gap-4">
           <ScrollLink to="value" smooth={true} duration={1500} offset={-50}>
             <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
               Nos avantages
