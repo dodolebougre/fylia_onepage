@@ -1,5 +1,4 @@
 "use client";
-import axios from "axios";
 import { useState } from "react";
 
 const Contact = () => {
@@ -17,15 +16,21 @@ const Contact = () => {
     };
 
     try {
-      // Utilisez Axios pour la requête POST
-      const response = await axios.post("/api/form/contact", data);
+      // Use fetch for the POST request
+      const response = await fetch("/api/form/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
-      if (response.status === 200) {
-        alert("Email envoyé avec succés");
+      if (response.ok) {
+        alert("Email envoyé avec succès");
         setLoading(false);
         event.target.reset();
       } else {
-        alert("Erreur d'envoie de message");
+        alert("Erreur d'envoi de message");
         setLoading(false);
       }
     } catch (error) {
@@ -34,6 +39,7 @@ const Contact = () => {
       setLoading(false);
     }
   }
+
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl mb-9 md:text-2xl lg:text-3xl text-center mt-10 p-2">
@@ -70,7 +76,7 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="border p-4 font-light text-center  m-10 hover:bg-black hover:text-white border-black"
+          className="border p-4 font-light text-center m-10 hover:bg-black hover:text-white border-black"
         >
           Contactez nous ☞
         </button>
