@@ -63,6 +63,9 @@ const ValueProp2 = () => {
                   className="transition-transform duration-500 hover:scale-110 scale-105"
                 />
               </div>
+         
+          
+              
             </div>
           </div>
         </section>

@@ -14,7 +14,7 @@ const Question = () => {
         F.A.Q
       </h1>
       <div className="xl:w-[1200px] md:w-[600px] w-[360px]  flex xl:flex-row flex-col border border-black items-center justify-center">
-        <div className="md:w-[600px] flex flex-col items-center justify-center text-center">
+        <div className="md:w-[700px] flex flex-col items-center justify-center text-center">
           <h1 className=" w-[300px] text-2xl md:text-2xl lg:text-3xl text-center mt-10 ">
             Vous ne trouvez pas la réponse à votre question ?
           </h1>
@@ -31,41 +31,39 @@ const Question = () => {
           <Accordion isCompact>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen }: { isOpen: boolean }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[270px] ml-[105px] " />
+                  <FaChevronDown className="md:ml-[315px] ml-[105px] " />
                 ) : (
-                  <FaChevronLeft className="md:ml-[270px] ml-[105px] " />
+                  <FaChevronLeft className="md:ml-[329px] ml-[105px] " />
                 )
               }
               key="1"
-              aria-label="Quelle est le coût d’une prestation?"
-              title="Quelle est le coût d’une prestation ?"
+              aria-label="Quel est le coût d’une prestation?"
+              title="Quel est le coût d’une prestation ?"
             >
-              <p className="text-sm font-extralight text-start">
+              <p className="text-sm font-extralight text-start w-[500px]">
                 Le cout d’une prestation dépend de l’artiste sélectionné et du{" "}
-                <br />
                 type de prestation. Il est calculé en fonction du temps de
-                création demandé par la prestation. <br /> Le prix n’excèdera
-                jamais le budget fixé avec vous lors de nos entretiens.
+                création demandé par la prestation. Le prix n’excèdera jamais le
+                budget fixé avec vous lors de nos entretiens.
               </p>
             </AccordionItem>
             <AccordionItem
               key="2"
               aria-label="Combien de temps pour une œuvre ?"
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen }: { isOpen: boolean }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[175px] ml-10" />
+                  <FaChevronDown className="md:ml-[255px] ml-10" />
                 ) : (
-                  <FaChevronLeft className="md:ml-[175px] ml-10" />
+                  <FaChevronLeft className="md:ml-[259px] ml-10" />
                 )
               }
               title="Combien de temps pour faire une oeuvre ?"
             >
-              <p className="text-sm font-extralight">
+              <p className="text-sm font-extralight w-[500px]">
                 Le temps de création dépend du nombre d’œuvre commandés et de{" "}
-                <br />
                 leur format. Il peut aussi varier en fonction du taux de
                 personnalisation de la commande.
               </p>
@@ -75,7 +73,7 @@ const Question = () => {
               key="3"
               aria-label="QCombien de temps pour une prestation ? ?"
               title="Combien de temps pour une prestation ?"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen }: { isOpen: boolean }) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[280px] ml-[100px] " />
                 ) : (
@@ -83,7 +81,7 @@ const Question = () => {
                 )
               }
             >
-              <p className="text-sm font-extralight">
+              <p className="text-sm font-extralight w-[500px]">
                 Le temps de prestation dépend uniquement de vos besoins. En cas
                 d’événement il peut etre d’une demi-journée à plusieurs jours.
                 Il peut aussi varier en fonction des disponibilités de vos
@@ -92,18 +90,18 @@ const Question = () => {
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen }: { isOpen: boolean }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[300px] ml-[180px] " />
+                  <FaChevronDown className="md:ml-[270px] ml-[180px] " />
                 ) : (
-                  <FaChevronLeft className="md:ml-[300px] ml-[180px] " />
+                  <FaChevronLeft className="md:ml-[270px] ml-[180px] " />
                 )
               }
               key="4"
               aria-label="Comment sont sélectionnés vos artistes ? "
               title="Comment sont sélectionnés vos artistes ? "
             >
-              <p className="text-sm font-extralight">
+              <p className="text-sm font-extralight w-[500px]">
                 Nous sélectionnons nos artistes après les avoir rencontrés
                 plusieurs fois personnellement. Nous proposons uniquement des
                 artistes issus de Marseille et avec des types d’art bien
@@ -112,18 +110,18 @@ const Question = () => {
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen }: { isOpen: boolean }) =>
                 isOpen ? (
-                  <FaChevronDown className="md:ml-[300px] ml-[180px] " />
+                  <FaChevronDown className="md:ml-[245px] ml-[180px] " />
                 ) : (
-                  <FaChevronLeft className="md:ml-[300px] ml-[180px] " />
+                  <FaChevronLeft className="md:ml-[245px] ml-[180px] " />
                 )
               }
-              key="4"
+              key="5"
               aria-label="Quel sont exactement les avantages fiscaux ? "
               title="Quel sont exactement les avantages fiscaux ? "
             >
-              <p className="text-sm font-extralight">
+              <p className="text-sm font-extralight w-[500px]">
                 Selon l’article 238bis AB du Code général des Impôts,
                 l’entreprise (soumise à l’impôt sur les sociétés ou à l’impôt
                 sur le revenu dans la catégorie des BIC) qui achète des œuvres
