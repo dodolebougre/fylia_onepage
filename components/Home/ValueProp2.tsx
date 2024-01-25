@@ -17,104 +17,131 @@ const ValueProp2 = () => {
       <div className="xl:w-[1200px] md:w-[600px]  w-[360px]">
         <section className="xl:flex-row justify-center items-center flex flex-col border border-black mt-10">
           <div
-            className="flex flex-col xl:text-left text-center p-8 max-w-[600px]
+            className="flex flex-col xl:text-left p-10 text-center max-w-[600px]
       "
           >
-            <h1 className="xl:text-6xl text-4xl mb-5">
-              Nous transformons vos espaces de travail
-            </h1>
+            <h1 className="xl:text-6xl text-4xl ">Tableaux personnalisés</h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
-              Des offres adaptées à vos besoins
+              Une offre adaptées à vos besoins !
             </p>
-            <ul className="text-1xl xl:text-lg mt-3 font-extralight">
-              <li>Nous trouvons l'artiste qui vous convient ! ✓</li>
-              <li>
-                Faites participer vos équipes à la réalisation des œuvres ✓
-              </li>
-              <li>Créez un lieu de convivialité qui vous ressemble ✓</li>
+            <ul className="text-1xl xl:text-lg mt-3 font-light">
+              <li>Représentez votre identité ✓</li>
+              <li>Créez votre propre galerie ✓</li>
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">
               <button
                 data-tally-open="mOGBWY"
                 data-tally-layout="modal"
-                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light mt-10"
+                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
               >
-                Essayez maintenant ☞
+                C'est partis ☞
               </button>
             </div>
           </div>
           <div className="flex flex-col max-w-[600px] duration-300 mx-[30px]">
-            <div className="flex flex-row mt-5 ">
-              <div className="border border-black overflow-hidden inline-block mr-2 mb-2 ">
+            <div className="flex flex-row xl:mr-[-30px] p-1">
+              <div className="border border-black overflow-hidden inline-block mr-1  ">
                 <Image
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417675660_823248099566448_7461296100062776775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=Y2pKUKeDyu4AX_GiHa4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSAMA-u8YEO7R7IVh6XLUr9H-Xbp1kIZ34WU23UZJTF-g&oe=65D8EB54"
-                  width={260}
+                  width={370}
                   height={500}
                   alt="P"
                   className="transition-transform duration-500 hover:scale-110"
                 />
               </div>
-              <div className="overflow-hidden inline-block mb-2 border border-black ">
+              <div className="overflow-hidden inline-block  border border-black ">
                 <Image
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417739255_1301157630579103_2380437704024145629_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=5aawG8O6FPUAX8hB70k&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQtpzku79oLpHNcMGfm8PZgGeAszyAo0jea2pxBHtevmQ&oe=65D8C639"
-                  width={230}
+                  width={325}
                   height={500}
                   alt="Bureaux"
                   className="transition-transform duration-500 hover:scale-110 scale-105"
                 />
               </div>
-         
-          
-              
             </div>
           </div>
         </section>
-        <section className="xl:flex-row justify-center items-center flex flex-col max-w-[1200px] border border-t-0 border-black xl:gap-40 p-5">
-          <div className="duration-300 z-10 border border-black overflow-hidden inline-block mt-5 xl:mt-0 xl:ml-5 mx-[50px] ">
+        <section className="xl:flex-row justify-center items-center flex flex-col max-w-[1200px] border border-t-0 border-black xl:gap-40 ">
+          <div className="z-10 border border-black inline-block m-1">
             <ReactCompareSlider
               className=""
               boundsPadding={0}
               itemOne={
                 <ReactCompareSliderImage
                   alt="Image one"
-                  src="https://media.discordapp.net/ephemeral-attachments/1092492867185950852/1192467453092044810/IMG_2539.jpeg?ex=65b2695b&is=659ff45b&hm=d195e627123eb68f8e2f07d5143537031c70d9860c99834344cddf634f481a03&=&format=webp&width=742&height=990"
+                  src="https://media.discordapp.net/attachments/1176884287925145653/1200134687843176518/supernoval_99898_an_artists_professionnal_exposition_room_minim_360bbe68-b04d-4dc6-8e95-17952f3b93dd.png?ex=65c51387&is=65b29e87&hm=77870059ca417effa14591724acbaf947671590a8d1e7173bf48881c1312aabf&=&format=webp&quality=lossless&width=1766&height=990"
                 />
               }
               itemTwo={
                 <ReactCompareSliderImage
                   alt="Image two"
-                  src="https://media.discordapp.net/attachments/1176824010663796818/1192468663173906532/supernoval_99898_flat_vector_illustration_travel_poster_of_a_li_727c4fb1-65d5-406f-a67c-ebee212b5bc3.png?ex=65b26a7c&is=659ff57c&hm=eb836e306dff32739801fee0f6d32ecd4b5ee8bfd464c9ed013ef7e509d11d9c&=&format=webp&quality=lossless&width=660&height=990"
+                  src="https://media.discordapp.net/attachments/1176884287925145653/1200133891990761602/supernoval_99898_persons_in_a_company_looks_out_over_a_colorful_91cd05b9-cc1a-4949-9d88-d42887c99770.png?ex=65c512c9&is=65b29dc9&hm=ffdeab8ae0c932234c260d1ddaaf7e2fe7a70f2fe608367bc0c7e9367a10441f&=&format=webp&quality=lossless&width=1766&height=990"
                 />
               }
               keyboardIncrement="5%"
               position={50}
               style={{
-                height: "60vh",
-                width: "300px",
+                height: "450px",
+                width: "600px",
               }}
             />
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
-            <h1 className="xl:text-6xl text-4xl mb-4">
-              Nous utilison les oeuvres de notre artiste dans votre branding et
-              communication
-            </h1>
+            <h1 className="xl:text-6xl text-4xl">Des fresques sur- mesures</h1>
             <p className="text-2xl mt-4 font-light">
-              Exposez votre plus belle création sur votre produit !
+              Une prestation entièrement personnalisable
             </p>
             <ul className="text-1xl xl:text-lg md:text-lg mt-3 font-light">
-              <li>✓ Une impression premium adaptée à vos goûts</li>
-              <li>✓ Une prestation entièrement personnalisable </li>
-              <li>✓ En seulement quelques clics</li>
+              <li>Transformez vos espaces de travail ✓</li>
+              <li>Partagez votre histoire ou vos valeurs ✓</li>
             </ul>
             <div className="flex flex-col xl:items-end items-center mt-6">
               <button
-                className="border p-3 font-light text-center hover:bg-black hover:text-white border-black mt-10"
+                className="border p-3 font-light text-center hover:bg-black hover:text-white border-black"
                 data-tally-open="mOGBWY"
                 data-tally-layout="modal"
               >
-                Testez avec nous ☞
+                C'est partis ☞
               </button>
+            </div>
+          </div>
+        </section>
+        <section className="xl:flex-row justify-center items-center flex flex-col border border-black border-t-0">
+          <div
+            className="flex flex-col xl:text-left p-10 text-center max-w-[600px]
+      "
+          >
+            <h1 className="xl:text-6xl text-4xl max-w-[600px] ">
+              Faites participer vos employés !
+            </h1>
+            <p className="text-2xl xl:text-1xl mt-4 font-light ">
+              En mode "team building"
+            </p>
+            <ul className="text-1xl xl:text-lg mt-3 font-light">
+              <li>Fédérez vos employés autour de nos servives artistiques ✓</li>
+              <li>Proposez un moyen de partage novateur et engagé ✓</li>
+            </ul>
+            <div className="flex flex-col xl:items-start items-center mt-6">
+              <button
+                data-tally-open="mOGBWY"
+                data-tally-layout="modal"
+                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
+              >
+                C'est partis ☞
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[600px] duration-300 mx-[30px]">
+            <div className="flex flex-row xl:mr-[-30px] p-1">
+              <div className="border border-black overflow-hidden inline-block  ">
+                <Image
+                  src="https://images.unsplash.com/photo-1646066490248-27b984261e3c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  width={710}
+                  height={500}
+                  alt="P"
+                  className="transition-transform duration-500 hover:scale-110"
+                />
+              </div>
             </div>
           </div>
         </section>
