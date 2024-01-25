@@ -4,7 +4,6 @@ import nodemailer from "nodemailer";
 const contact = async (req: NextApiRequest, res: NextApiResponse) => {
   const { name, emailPro, phoneNumber, message } = req.body;
 
-  const user = process.env.user;
   const data = {
     name,
     emailPro,
@@ -17,16 +16,16 @@ const contact = async (req: NextApiRequest, res: NextApiResponse) => {
     port: 587,
     secure: false,
     auth: {
-      user: user,
+      user: process.env.user,
       pass: process.env.pass,
     },
-    debug: true, // Active la journalisation
+    debug: true,
   });
 
   try {
     const mail = await transporter.sendMail({
       from: emailPro,
-      to: user,
+      to: process.env.user,
       replyTo: emailPro,
       subject: `Contact venant de ${name}`,
       html: `
