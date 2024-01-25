@@ -31,7 +31,7 @@ const Question = () => {
           <Accordion isCompact>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen } : any ) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[315px] ml-[105px] " />
                 ) : (
@@ -53,7 +53,7 @@ const Question = () => {
               key="2"
               aria-label="Combien de temps pour une œuvre ?"
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen } : any ) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[255px] ml-10" />
                 ) : (
@@ -73,7 +73,7 @@ const Question = () => {
               key="3"
               aria-label="QCombien de temps pour une prestation ? ?"
               title="Combien de temps pour une prestation ?"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen } : any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[280px] ml-[100px] " />
                 ) : (
@@ -90,7 +90,7 @@ const Question = () => {
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen } : any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[270px] ml-[180px] " />
                 ) : (
@@ -110,7 +110,7 @@ const Question = () => {
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen }) =>
+              indicator={({ isOpen } : any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[245px] ml-[180px] " />
                 ) : (
