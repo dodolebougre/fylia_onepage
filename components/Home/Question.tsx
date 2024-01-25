@@ -19,7 +19,7 @@ const Question = () => {
             Vous ne trouvez pas la réponse à votre question ?
           </h1>
           <button
-            className="bg-gradient-to-r font-light border p-4 m-10 text-white hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600"
+            className=" font-light border p-4 m-10 hover:bg-black hover:text-white border-black"
             data-tally-open="mVJ97v"
             data-tally-layout="modal"
             data-tally-emoji-animation="wave"
@@ -39,14 +39,15 @@ const Question = () => {
                 )
               }
               key="1"
-              aria-label="Quelle est le coût d’une oeuvre ?"
-              title="Quelle est le coût d’une oeuvre ?"
+              aria-label="Quelle est le coût d’une prestation?"
+              title="Quelle est le coût d’une prestation ?"
             >
               <p className="text-sm font-extralight text-start">
-                Le cout de l'oeuvre débutera à partir de 50€ et augmentera
+                Le cout d’une prestation dépend de l’artiste sélectionné et du{" "}
                 <br />
-                en fonction de plusieurs critères : <br /> - La taille <br />
-                - Le support <br />- Le nombre d'interventions de nos designers
+                type de prestation. Il est calculé en fonction du temps de
+                création demandé par la prestation. <br /> Le prix n’excèdera
+                jamais le budget fixé avec vous lors de nos entretiens.
               </p>
             </AccordionItem>
             <AccordionItem
@@ -60,19 +61,20 @@ const Question = () => {
                   <FaChevronLeft className="md:ml-[175px] ml-10" />
                 )
               }
-              title="Combien de temps pour faire une impression ?"
+              title="Combien de temps pour faire une oeuvre ?"
             >
               <p className="text-sm font-extralight">
-                Grâce à l'IA, l'impression est instantanée. En engageant nos
-                designers, <br /> le temps de fabrication sera limité à un
-                maximum de 3 jours ouvrés.
+                Le temps de création dépend du nombre d’œuvre commandés et de{" "}
+                <br />
+                leur format. Il peut aussi varier en fonction du taux de
+                personnalisation de la commande.
               </p>
             </AccordionItem>
             <AccordionItem
               className="p-4"
               key="3"
-              aria-label="Quel est le moyen de livraison utilisé ?"
-              title="Quel est le temps de livraison ?"
+              aria-label="QCombien de temps pour une prestation ? ?"
+              title="Combien de temps pour une prestation ?"
               indicator={({ isOpen }) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[280px] ml-[100px] " />
@@ -82,7 +84,10 @@ const Question = () => {
               }
             >
               <p className="text-sm font-extralight">
-                Délai de livraison : 5 à 7 jours ouvrés.
+                Le temps de prestation dépend uniquement de vos besoins. En cas
+                d’événement il peut etre d’une demi-journée à plusieurs jours.
+                Il peut aussi varier en fonction des disponibilités de vos
+                salariées en cas d’ateliers participatifs.
               </p>
             </AccordionItem>
             <AccordionItem
@@ -95,12 +100,37 @@ const Question = () => {
                 )
               }
               key="4"
-              aria-label="Y’a t’il une garantie ?"
-              title="Y’a t’il des frais de livraison ?"
+              aria-label="Comment sont sélectionnés vos artistes ? "
+              title="Comment sont sélectionnés vos artistes ? "
             >
               <p className="text-sm font-extralight">
-                Des frais de livraison de 10 euros seront rajoutés à votre
-                commande.
+                Nous sélectionnons nos artistes après les avoir rencontrés
+                plusieurs fois personnellement. Nous proposons uniquement des
+                artistes issus de Marseille et avec des types d’art bien
+                distincts.
+              </p>
+            </AccordionItem>
+            <AccordionItem
+              className="p-4"
+              indicator={({ isOpen }) =>
+                isOpen ? (
+                  <FaChevronDown className="md:ml-[300px] ml-[180px] " />
+                ) : (
+                  <FaChevronLeft className="md:ml-[300px] ml-[180px] " />
+                )
+              }
+              key="4"
+              aria-label="Quel sont exactement les avantages fiscaux ? "
+              title="Quel sont exactement les avantages fiscaux ? "
+            >
+              <p className="text-sm font-extralight">
+                Selon l’article 238bis AB du Code général des Impôts,
+                l’entreprise (soumise à l’impôt sur les sociétés ou à l’impôt
+                sur le revenu dans la catégorie des BIC) qui achète des œuvres
+                originales d’artistes vivants pour les exposer au public, a le
+                droit de déduire le prix d’acquisition de son résultat
+                imposable. Et ce à raison de 20% par an pendant 5 ans, et dans
+                la limite de 20 000 € ou 0,5% du chiffre d’affaires hors taxes.
               </p>
             </AccordionItem>
           </Accordion>

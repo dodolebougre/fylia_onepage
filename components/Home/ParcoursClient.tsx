@@ -8,7 +8,7 @@ const ParcoursClient = () => {
       className="mb-10 text-black bg-gradient-to-r  from-white via-slate-100 to-white  flex flex-col items-center justify-center xl:flex-row pt-5 text-center"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px]">
-        Etapes à suivre
+        Les étapes
       </h1>
       <div className="md:max-w-[1200px] max-w-[400px] mb-10">
         <section className="xl:flex-row justify-center items-center flex flex-col">
@@ -27,8 +27,8 @@ const ParcoursClient = () => {
             </div>
             <h1 className="text-xl mt-3">Etape 1</h1>
             <p className="font-light">
-              Vous remplissez le <strong> formulaire d'inscription </strong>pour
-              prendre contact avec nous.
+              Vous remplissez notre <strong> formulaire de contact </strong>et
+              décrivez votre besoin.
             </p>
           </div>
 
@@ -44,9 +44,9 @@ const ParcoursClient = () => {
             </div>
             <h1 className="text-xl  mt-3">Etape 2</h1>
             <p className="font-light">
-              Nous vous mettons avec <strong>l'artiste parfait</strong> en amont
-              en identifiant, le type de l'entreprise, son image et son
-              implantation.
+              Nous prenons contact avec vous pour vous présenter des
+              <strong>artistes et des prestations</strong> parfaitement adaptées
+              à votre entreprise.
             </p>
           </div>
           <div className="mt-10 w-[270px]  xl:text-right text-center xl:mr-10 mr-0">
@@ -64,8 +64,9 @@ const ParcoursClient = () => {
             </div>
             <h1 className="text-xl  mt-3">Etape 3</h1>
             <p className="font-light">
-              Nous trouvons une date commune entre l'entreprise et l'artiste et
-              mettons en place l'evenement clé en main.
+              Nous <strong> affinons avec vous</strong> ces propositions jusqu'à
+              atteindre un événement ou une prestation qui vous convient
+              entièrement.
             </p>
           </div>
           <div className="mt-16 w-[270px] xl:text-right text-center">
@@ -83,13 +84,13 @@ const ParcoursClient = () => {
             </div>
             <h1 className="text-xl  mt-3">Etape 4</h1>
             <p className="font-light">
-              Vous repartez avec votre oeuvre sur mesure (fresque, tableau ...)
-              confectionné à l'image de votre entreprise.
+              Nous fixons une date et le tour est joué.{" "}
+              <strong>Place à l’artiste!</strong>
             </p>
           </div>
         </section>
         <button
-          className="font-light border bg-gradient-to-r hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600 text-white  p-4  m-10"
+          className="font-light border  hover:bg-black hover:text-white border-black  p-4  m-10"
           data-tally-open="mOGBWY"
           data-tally-layout="modal"
         >

@@ -72,7 +72,7 @@ export default function Slider() {
         <button
           data-tally-open="mOGBWY"
           data-tally-layout="modal"
-          className=" flex p-4 mb-10 border font-light bg-gradient-to-r hover:text-black hover:from-white border-black from-blue-600 via-blue-500 to-blue-600 text-white m-10 text-center"
+          className=" flex p-4 mb-10 border font-light hover:bg-black hover:text-white border-black m-10 text-center"
         >
           Je veux la même chose ! ☞
         </button>
