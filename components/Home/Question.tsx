@@ -31,7 +31,7 @@ const Question = () => {
           <Accordion isCompact>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen } : any ) =>
+              indicator={({ isOpen }: any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[315px] ml-[105px] " />
                 ) : (
@@ -42,18 +42,18 @@ const Question = () => {
               aria-label="Quel est le coût d’une prestation?"
               title="Quel est le coût d’une prestation ?"
             >
-              <p className="text-sm font-extralight text-start w-[500px]">
-                Le cout d’une prestation dépend de l’artiste sélectionné et du{" "}
-                type de prestation. Il est calculé en fonction du temps de
-                création demandé par la prestation. Le prix n’excèdera jamais le
-                budget fixé avec vous lors de nos entretiens.
+              <p className="text-sm font-extralight text-start xl:w-[500px]">
+                Le coût d'une prestation dépend de l'artiste choisi et du type
+                de service. Il est calculé en fonction du temps nécessaire à la
+                création de la prestation. Le prix ne dépassera jamais le budget
+                convenu lors de nos entretiens.
               </p>
             </AccordionItem>
             <AccordionItem
               key="2"
               aria-label="Combien de temps pour une œuvre ?"
               className="p-4"
-              indicator={({ isOpen } : any ) =>
+              indicator={({ isOpen }: any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[255px] ml-10" />
                 ) : (
@@ -62,9 +62,9 @@ const Question = () => {
               }
               title="Combien de temps pour faire une oeuvre ?"
             >
-              <p className="text-sm font-extralight w-[500px]">
-                Le temps de création dépend du nombre d’œuvre commandés et de{" "}
-                leur format. Il peut aussi varier en fonction du taux de
+              <p className="text-sm font-extralight xl:w-[500px]">
+                Le temps de création dépend du nombre d'œuvres commandées et de
+                leur format. Il peut également varier en fonction du degré de
                 personnalisation de la commande.
               </p>
             </AccordionItem>
@@ -73,7 +73,7 @@ const Question = () => {
               key="3"
               aria-label="QCombien de temps pour une prestation ? ?"
               title="Combien de temps pour une prestation ?"
-              indicator={({ isOpen } : any) =>
+              indicator={({ isOpen }: any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[280px] ml-[100px] " />
                 ) : (
@@ -81,16 +81,16 @@ const Question = () => {
                 )
               }
             >
-              <p className="text-sm font-extralight w-[500px]">
-                Le temps de prestation dépend uniquement de vos besoins. En cas
-                d’événement il peut etre d’une demi-journée à plusieurs jours.
-                Il peut aussi varier en fonction des disponibilités de vos
-                salariées en cas d’ateliers participatifs.
+              <p className="text-sm font-extralight xl:w-[500px]">
+                Le temps de prestation dépend exclusivement de vos besoins. En
+                cas d'événement, il peut varier d'une demi-journée à plusieurs
+                jours. De plus, il peut également fluctuer en fonction des
+                disponibilités de vos salariés en cas d'ateliers participatifs.
               </p>
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen } : any) =>
+              indicator={({ isOpen }: any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[270px] ml-[180px] " />
                 ) : (
@@ -101,16 +101,16 @@ const Question = () => {
               aria-label="Comment sont sélectionnés vos artistes ? "
               title="Comment sont sélectionnés vos artistes ? "
             >
-              <p className="text-sm font-extralight w-[500px]">
-                Nous sélectionnons nos artistes après les avoir rencontrés
-                plusieurs fois personnellement. Nous proposons uniquement des
-                artistes issus de Marseille et avec des types d’art bien
-                distincts.
+              <p className="text-sm font-extralight xl:w-[500px]">
+                Nous sélectionnons nos artistes après les avoir rencontrés à
+                plusieurs reprises personnellement. Nous proposons uniquement
+                des artistes originaires de votre région, chacun spécialisé dans
+                des types d'art bien distincts.
               </p>
             </AccordionItem>
             <AccordionItem
               className="p-4"
-              indicator={({ isOpen } : any) =>
+              indicator={({ isOpen }: any) =>
                 isOpen ? (
                   <FaChevronDown className="md:ml-[245px] ml-[180px] " />
                 ) : (
@@ -121,14 +121,15 @@ const Question = () => {
               aria-label="Quel sont exactement les avantages fiscaux ? "
               title="Quel sont exactement les avantages fiscaux ? "
             >
-              <p className="text-sm font-extralight w-[500px]">
-                Selon l’article 238bis AB du Code général des Impôts,
-                l’entreprise (soumise à l’impôt sur les sociétés ou à l’impôt
-                sur le revenu dans la catégorie des BIC) qui achète des œuvres
-                originales d’artistes vivants pour les exposer au public, a le
-                droit de déduire le prix d’acquisition de son résultat
-                imposable. Et ce à raison de 20% par an pendant 5 ans, et dans
-                la limite de 20 000 € ou 0,5% du chiffre d’affaires hors taxes.
+              <p className="text-sm font-extralight xl:w-[500px]">
+                Selon l'article 238bis AB du Code général des Impôts, une
+                entreprise soumise à l'impôt sur les sociétés ou à l'impôt sur
+                le revenu dans la catégorie des BIC, qui achète des œuvres
+                originales d'artistes vivants pour les exposer au public, a le
+                droit de déduire le prix d'acquisition de son résultat
+                imposable. Cette déduction s'effectue à raison de 20% par an
+                pendant 5 ans, dans la limite de 20 000 € ou 0,5% du chiffre
+                d'affaires hors taxes.
               </p>
             </AccordionItem>
           </Accordion>

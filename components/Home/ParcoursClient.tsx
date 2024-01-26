@@ -12,7 +12,7 @@ const ParcoursClient = () => {
       </h1>
       <div className="md:w-[1200px] w-[400px] mb-10 mt-10">
         <section className="xl:flex-row justify-center items-center flex flex-col ">
-          <div className="w-[290px] xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
+          <div className="xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
             <div
               className="border border-black 
       "
@@ -32,13 +32,13 @@ const ParcoursClient = () => {
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
               <p className="font-light invisible group-hover:visible">
-                Vous remplissez notre <strong> formulaire de contact </strong>et
+                Remplissez notre <strong> formulaire de contact </strong>et
                 décrivez votre besoin.
               </p>
             </div>
           </div>
 
-          <div className="w-[290px] xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
+          <div className=" xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
             <div className="border border-black ">
               <Image
                 alt="Formulaire"
@@ -55,13 +55,13 @@ const ParcoursClient = () => {
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
               <p className="font-light invisible group-hover:visible">
-                Nous prenons contact avec vous pour vous présenter des
-                <strong> artistes et des prestations</strong> parfaitement
-                adaptées à votre entreprise.
+                Nous vous contactons pour vous présenter nos
+                <strong> artistes et vous proposez des prestations</strong>{" "}
+                parfaitement adaptées à votre entreprise.
               </p>
             </div>
           </div>
-          <div className="w-[290px] xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
+          <div className=" xl:text-right text-center xl:mr-10 mr-0 relative group text-white xl:mb-0 mb-10">
             <div className="border border-black">
               <Image
                 alt="Evenement Fylia"
@@ -77,14 +77,15 @@ const ParcoursClient = () => {
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
                 <p className="font-light invisible group-hover:visible">
-                  Nous <strong>affinons avec vous</strong> ces propositions
-                  jusqu'à atteindre un événement ou une prestation qui vous
-                  convient entièrement.
+                  En collaboration avec vous,{" "}
+                  <strong>nous perfectionnons</strong> ces propositions pour{" "}
+                  <strong>créer un événement ou une prestation</strong> qui
+                  correspond pleinement à vos attentes.
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-[290px] xl:text-right text-center relative group text-white xl:mb-0 mb-10">
+          <div className="xl:text-right text-center relative group text-white xl:mb-0 mb-10">
             <div
               className="border border-black
       "

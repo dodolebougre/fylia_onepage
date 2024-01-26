@@ -41,7 +41,7 @@ const ValueProp = () => {
         <p className="text-lg text-center font-light">
           <strong>Stimulez</strong> la créativité et le{" "}
           <strong>bien être </strong> de vos équipes grâce à l'art. Créez un
-          environnement de travail <strong> sain</strong> qui nourrit
+          environnement de travail <strong> stimulant</strong> qui nourrit
           l’engagement ✶
         </p>
       </section>
@@ -57,7 +57,7 @@ const ValueProp = () => {
         <p className="text-lg text-center font-light">
           En achetant une ou plusieurs œuvres d’arts et en{" "}
           <strong>soutenant nos artistes</strong> , votre entreprise est
-          éligible à une <strong>déduction d’impôts sur 5 ans. </strong> ✶
+          éligible à une <strong>déduction d’impôts sur 5 ans </strong> ✶
         </p>
       </section>
     </div>

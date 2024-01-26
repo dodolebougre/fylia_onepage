@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 
 const Contact = () => {
@@ -43,12 +43,12 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl mb-9 md:text-2xl lg:text-3xl text-center mt-10 p-2">
-        Vous êtes un artiste ou un designer et êtes intéressé par une
+        Vous êtes un(e) artiste ou un(e) designer et êtes intéressé(e) par une
         collaboration ?
       </h1>
       <form className="flex flex-col items-center" onSubmit={handleSubmit}>
         <input
-          placeholder="Votre prénom"
+          placeholder="Votre prénom ou nom d'artiste"
           className="mt-3 p-2 w-[300px] border text-black text-sm bg-white font-light border-black"
           type="text"
           id="name"

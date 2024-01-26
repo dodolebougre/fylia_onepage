@@ -22,7 +22,7 @@ const ValueProp2 = () => {
           >
             <h1 className="xl:text-6xl text-4xl ">Tableaux personnalisés</h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
-              Une offre adaptées à vos besoins !
+              Une offre adaptée à vos besoins !
             </p>
             <ul className="text-1xl xl:text-lg mt-3 font-light">
               <li>Représentez votre identité ✓</li>
@@ -34,12 +34,12 @@ const ValueProp2 = () => {
                 data-tally-layout="modal"
                 className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
               >
-                C'est partis ☞
+                C'est parti ☞
               </button>
             </div>
           </div>
-          <div className="flex flex-col max-w-[600px] duration-300 mx-[30px]">
-            <div className="flex flex-row xl:mr-[-30px] p-1">
+          <div className="flex flex-col max-w-[600px] duration-300">
+            <div className="flex flex-row p-1">
               <div className="border border-black overflow-hidden inline-block mr-1  ">
                 <Image
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417675660_823248099566448_7461296100062776775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=Y2pKUKeDyu4AX_GiHa4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSAMA-u8YEO7R7IVh6XLUr9H-Xbp1kIZ34WU23UZJTF-g&oe=65D8EB54"
@@ -64,7 +64,7 @@ const ValueProp2 = () => {
         <section className="xl:flex-row justify-center items-center flex flex-col max-w-[1200px] border border-t-0 border-black xl:gap-40 ">
           <div className="z-10 border border-black inline-block m-1">
             <ReactCompareSlider
-              className=""
+              className="xl:w-[595px] xl:h-[400px]"
               boundsPadding={0}
               itemOne={
                 <ReactCompareSliderImage
@@ -80,20 +80,16 @@ const ValueProp2 = () => {
               }
               keyboardIncrement="5%"
               position={50}
-              style={{
-                height: "450px",
-                width: "600px",
-              }}
             />
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
-            <h1 className="xl:text-6xl text-4xl">Des fresques sur- mesures</h1>
+            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesure</h1>
             <p className="text-2xl mt-4 font-light">
               Une prestation entièrement personnalisable
             </p>
             <ul className="text-1xl xl:text-lg md:text-lg mt-3 font-light">
               <li>Transformez vos espaces de travail ✓</li>
-              <li>Partagez votre histoire ou vos valeurs ✓</li>
+              <li>Partagez votre histoire et vos valeurs ✓</li>
             </ul>
             <div className="flex flex-col xl:items-end items-center mt-6">
               <button
@@ -101,7 +97,7 @@ const ValueProp2 = () => {
                 data-tally-open="mOGBWY"
                 data-tally-layout="modal"
               >
-                C'est partis ☞
+                C'est parti ☞
               </button>
             </div>
           </div>
@@ -127,16 +123,16 @@ const ValueProp2 = () => {
                 data-tally-layout="modal"
                 className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
               >
-                C'est partis ☞
+                C'est parti ☞
               </button>
             </div>
           </div>
-          <div className="flex flex-col max-w-[600px] duration-300 mx-[30px]">
-            <div className="flex flex-row xl:mr-[-30px] p-1">
+          <div className="flex flex-col max-w-[600px] duration-300">
+            <div className="flex flex-row p-1">
               <div className="border border-black overflow-hidden inline-block  ">
                 <Image
                   src="https://images.unsplash.com/photo-1646066490248-27b984261e3c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  width={710}
+                  width={600}
                   height={500}
                   alt="P"
                   className="transition-transform duration-500 hover:scale-110"
