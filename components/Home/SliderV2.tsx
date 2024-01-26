@@ -54,7 +54,7 @@ export default function Slider() {
                 <div className="flex justify-center items-center group relative">
                   <Image
                     alt="entreprise comblé grâce a notre offre B2B"
-                    src="https://media.discordapp.net/attachments/1176884287925145653/1200396021902098542/supernoval_99898_an_office_in_a_company_with_desk_and_computer__96d20739-50d6-4c4d-94ee-e27ac586bf38.webp?ex=65c606e9&is=65b391e9&hm=fc5e58e3ba39c4cbde0c7350e10a44b146bc6e844c6b96ce1b9d0c60b5fa9c8b&=&format=webp&width=990&height=990"
+                    src="https://media.discordapp.net/attachments/1176884287925145653/1200439358600257648/supernoval_99898_an_office_in_a_company_with_desk_and_computer__4d86374f-839f-4ee7-a77c-3c0fcbba12ad.png?ex=65c62f46&is=65b3ba46&hm=13e4f967e537767239b1cc42dc32f77a8414aca2c9b1270297e2c398e5f137cb&=&format=webp&quality=lossless&width=990&height=990"
                     width={700}
                     height={50}
                     className="w-[1/2] h-[1/2]"
@@ -71,7 +71,7 @@ export default function Slider() {
                 <div className="flex justify-center items-center group relative">
                   <Image
                     alt="entreprise comblé grâce a notre offre B2B"
-                    src="https://media.discordapp.net/attachments/1176884287925145653/1200396048053571605/supernoval_99898_a_team_building_in_a_company_with_people_who_i_fba41a52-a00c-4048-9517-5e9f1be61cc3.png?ex=65c606f0&is=65b391f0&hm=37907d1f8aa118a426ad9686214303e6005677293803fadf4311a32ba69163bd&=&format=webp&quality=lossless&width=990&height=990"
+                    src="https://media.discordapp.net/attachments/1176884287925145653/1200432614427865149/supernoval_99898_people_painting_an_area_of_wall_in_the_office__db526f03-0a11-4769-922c-3a081db29590.webp?ex=65c628fe&is=65b3b3fe&hm=5c3afed4b448d8727a5a011d37ab72954d591adf550f77916d5b326137fbcd02&=&format=webp&width=990&height=990"
                     width={700}
                     height={50}
                     className="w-[1/2] h-[1/2]"

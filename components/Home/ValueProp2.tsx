@@ -111,7 +111,7 @@ const ValueProp2 = () => {
               Faites participer vos employés !
             </h1>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
-              En mode "team building"
+              Un séminaire organisé de A à Z
             </p>
             <ul className="text-1xl xl:text-lg mt-3 font-light">
               <li>Fédérez vos employés autour de nos servives artistiques ✓</li>
