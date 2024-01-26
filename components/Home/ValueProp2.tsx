@@ -69,13 +69,13 @@ const ValueProp2 = () => {
               itemOne={
                 <ReactCompareSliderImage
                   alt="Image one"
-                  src="https://media.discordapp.net/attachments/1176884287925145653/1200134687843176518/supernoval_99898_an_artists_professionnal_exposition_room_minim_360bbe68-b04d-4dc6-8e95-17952f3b93dd.png?ex=65c51387&is=65b29e87&hm=77870059ca417effa14591724acbaf947671590a8d1e7173bf48881c1312aabf&=&format=webp&quality=lossless&width=1766&height=990"
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417634704_2083524791994652_4902182123727859007_n.png?_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=FCv4zJAFA_oAX9j5Lz8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQVSn-JGrwUDy2124gp9PfR_a46N1_zaHAIIw8M6qJmaA&oe=65DB5F6F"
                 />
               }
               itemTwo={
                 <ReactCompareSliderImage
                   alt="Image two"
-                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417914170_427981869563399_7874365926759799778_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=g51ita4fHYIAX9slJDO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT8moIYLjAwVQ-CXTAdYsucDG3EI6Qb4K9TEIqtvpvS8g&oe=65DB60CD"
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/418093234_370136752431112_7164859941821537544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=zd7CBC11bSQAX_AQU74&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS09gYE-Naj1eDCj3e_x1BBfrTCAdno6yRlepXW9pd7jg&oe=65DB961B"
                 />
               }
               keyboardIncrement="5%"
