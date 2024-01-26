@@ -6,7 +6,7 @@ import SliderV2 from "../components/Home/SliderV2";
 import Proofbar from "../components/Home/Proofbar";
 import Services from "../components/Home/Services";
 import ParcoursClient from "../components/Home/ParcoursClient";
-import Question from "../components/Home/Question";
+import Question from "../components/Home/Question/Question";
 import Navbar from "../components/Navbar/Navbar";
 import Contact from "../components/Home/FormulaireArtiste/Contact";
 

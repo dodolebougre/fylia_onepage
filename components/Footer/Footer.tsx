@@ -7,7 +7,6 @@ import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import RGPD from "./RGPD";
 import CGV from "./CGV";
 import Paiement from "./Paiement";

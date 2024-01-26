@@ -3,6 +3,8 @@ import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
+import { StrictMode } from "react";
+import CalendlyWidget from "../Question/CalendlyWidget";
 
 const Question = () => {
   return (
@@ -18,14 +20,7 @@ const Question = () => {
           <h1 className=" w-[300px] text-2xl md:text-2xl lg:text-3xl text-center mt-10 ">
             Vous ne trouvez pas la réponse à votre question ?
           </h1>
-          <button
-            className=" font-light border p-4 m-10 hover:bg-black hover:text-white border-black"
-            data-tally-open="mVJ97v"
-            data-tally-layout="modal"
-            data-tally-emoji-animation="wave"
-          >
-            Contactez nous ☞
-          </button>
+          <CalendlyWidget />
         </div>
         <div className="font-light">
           <Accordion isCompact>
