@@ -86,17 +86,17 @@ const Navbar = () => {
           </ScrollLink>
         </div>
         <div className="text-sm font-light hidden xl:flex gap-4">
-          <ScrollLink to="value" smooth={true} duration={1500} offset={-50}>
+          <ScrollLink to="value" smooth={true} duration={1500} offset={-95}>
             <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
               Nos avantages
             </p>
           </ScrollLink>
-          <ScrollLink to="services" smooth={true} duration={1500} offset={-100}>
+          <ScrollLink to="services" smooth={true} duration={1500} offset={-95}>
             <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
               Nos services
             </p>
           </ScrollLink>
-          <ScrollLink to="question" smooth={true} duration={1500} offset={-50}>
+          <ScrollLink to="question" smooth={true} duration={1500} offset={-95}>
             <p className="p-2 transition-transform duration-300 cursor-pointer hover:underline">
               Des questions ?
             </p>
@@ -127,6 +127,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
               href="#value"
+              
             >
               Nos avantages
             </Link>

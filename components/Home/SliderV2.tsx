@@ -31,39 +31,56 @@ export default function Slider() {
               centeredSlides={true}
               navigation={true}
               modules={[Navigation]}
-              className="flex justify-center items-center "
+              className="flex justify-center items-center"
             >
               <SwiperSlide>
-                <div className="flex justify-center items-center ">
+                <div className="flex justify-center items-center group relative">
                   <Image
                     alt="entreprise comblé grâce a notre offre B2B"
                     src="https://media.licdn.com/dms/image/D4E22AQEiMUwPF-QZFA/feedshare-shrink_1280/0/1703695651581?e=1709164800&v=beta&t=hLiOWaFC8yDZ8HfjNM6xkNXkbXLLw5cMguqzO67Ozew"
-                    width={800}
+                    width={700}
                     height={50}
-                    className="w-[1/2] h-[1/2] xl:p-10"
+                    className="w-[1/2] h-[1/2]"
                   />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
+                    <p className="font-light invisible group-hover:visible text-white">
+                      Exemple de <strong>fresque</strong> <br />
+                      Locaux de Microsoft
+                    </p>
+                  </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="flex justify-center items-center ">
+                <div className="flex justify-center items-center group relative">
                   <Image
                     alt="entreprise comblé grâce a notre offre B2B"
-                    src="https://media.discordapp.net/attachments/1176884287925145653/1200380825028526161/supernoval_99898_an_artists_profesionnal_exposition_room_painti_b148b45c-69df-47f8-a8f9-867235b78ef2.png?ex=65c5f8c2&is=65b383c2&hm=893f9116b86280e223a45ba4699bb2695b843051f1d03fe777f32e9220badd20&=&format=webp&quality=lossless&width=990&height=990"
-                    width={800}
+                    src="https://media.discordapp.net/attachments/1176884287925145653/1200396021902098542/supernoval_99898_an_office_in_a_company_with_desk_and_computer__96d20739-50d6-4c4d-94ee-e27ac586bf38.webp?ex=65c606e9&is=65b391e9&hm=fc5e58e3ba39c4cbde0c7350e10a44b146bc6e844c6b96ce1b9d0c60b5fa9c8b&=&format=webp&width=990&height=990"
+                    width={700}
                     height={50}
-                    className="w-[1/2] h-[1/2] xl:p-10"
+                    className="w-[1/2] h-[1/2]"
                   />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
+                    <p className="font-light invisible group-hover:visible text-white">
+                      Exemple de <strong>tableaux</strong> <br />
+                      Locaux d'une agence
+                    </p>
+                  </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="flex justify-center items-center ">
+                <div className="flex justify-center items-center group relative">
                   <Image
                     alt="entreprise comblé grâce a notre offre B2B"
-                    src="https://media.discordapp.net/attachments/1176884287925145653/1200382734850334720/supernoval_99898_a_team_building_in_a_company_with_people_who_i_73d1cb71-8043-4cd9-bf48-ad8cdffc5268.png?ex=65c5fa8a&is=65b3858a&hm=ec7dd9b757d766ca222d168e8eff5b8b2eed39070ed1eb25c62ddfb0d40e85df&=&format=webp&quality=lossless&width=990&height=990"
-                    width={800}
+                    src="https://media.discordapp.net/attachments/1176884287925145653/1200396048053571605/supernoval_99898_a_team_building_in_a_company_with_people_who_i_fba41a52-a00c-4048-9517-5e9f1be61cc3.png?ex=65c606f0&is=65b391f0&hm=37907d1f8aa118a426ad9686214303e6005677293803fadf4311a32ba69163bd&=&format=webp&quality=lossless&width=990&height=990"
+                    width={700}
                     height={50}
-                    className="w-[1/2] h-[1/2] xl:p-10"
+                    className="w-[1/2] h-[1/2]"
                   />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
+                    <p className="font-light invisible group-hover:visible text-white">
+                      Exemple de <strong>team-building </strong> <br />
+                    </p>
+                  </div>
                 </div>
               </SwiperSlide>
             </Swiper>

@@ -29,10 +29,10 @@ const MyComponent = () => {
   return (
     <div className="font-light">
       <button
-        className="border p-3 font-light text-center hover:bg-black hover:text-white border-black mt-10"
+        className="border p-3 font-light text-center hover:bg-black hover:text-white border-black my-10"
         onClick={() => setIsOpen(true)}
       >
-        Contactez nous ☞
+        Rendez-vous en visio ☞
       </button>
       <Modal
         isOpen={isOpen}

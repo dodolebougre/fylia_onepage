@@ -42,7 +42,7 @@ const Footer = () => {
             <Link href="#">
               <p className="hover:font-normal">Fylia</p>
             </Link>
-            <Link href="#parcours">
+            <Link href="#parcours" >
               <p className="hover:font-normal">Nos avantages</p>
             </Link>
             <Link href="#services">

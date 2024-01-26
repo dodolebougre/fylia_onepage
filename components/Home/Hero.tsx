@@ -47,7 +47,7 @@ const Hero = () => {
             et mettre en avant vos équipes et vos valeurs à travers une
             experience unique.
           </h2>
-          <ScrollLink to="services" smooth={true} duration={1500} offset={0}>
+          <ScrollLink to="services" smooth={true} duration={1500} offset={-95}>
             <button className="font-light border p-4 hover:bg-white hover:text-black">
               Nos services ☞
             </button>

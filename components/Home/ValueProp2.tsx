@@ -30,11 +30,11 @@ const ValueProp2 = () => {
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">
               <button
-                data-tally-open="mOGBWY"
+                data-tally-open="nWzX6j"
                 data-tally-layout="modal"
                 className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
               >
-                C'est parti ☞
+                Réalisez votre oeuvre sur mersure ☞
               </button>
             </div>
           </div>
@@ -83,7 +83,7 @@ const ValueProp2 = () => {
             />
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
-            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesure</h1>
+            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesures</h1>
             <p className="text-2xl mt-4 font-light">
               Une prestation entièrement personnalisable
             </p>
@@ -94,10 +94,10 @@ const ValueProp2 = () => {
             <div className="flex flex-col xl:items-end items-center mt-6">
               <button
                 className="border p-3 font-light text-center hover:bg-black hover:text-white border-black"
-                data-tally-open="mOGBWY"
+                data-tally-open="wbdXMg"
                 data-tally-layout="modal"
               >
-                C'est parti ☞
+                Réalisez votre fresque ☞
               </button>
             </div>
           </div>
@@ -119,11 +119,11 @@ const ValueProp2 = () => {
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">
               <button
-                data-tally-open="mOGBWY"
+                data-tally-open="wkEX41"
                 data-tally-layout="modal"
                 className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
               >
-                C'est parti ☞
+                Organisez votre team-building ☞
               </button>
             </div>
           </div>
