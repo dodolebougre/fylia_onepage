@@ -127,9 +127,9 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
               href="#value"
-              
             >
-              Nos avantages
+              {" "}
+              <h1>Nos avantages</h1>
             </Link>
 
             <Link
@@ -137,7 +137,7 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500"
               href="#services"
             >
-              Nos services
+              <h1>Nos services</h1>
             </Link>
 
             <Link
@@ -145,7 +145,7 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500"
               href="#question"
             >
-              Des questions ?
+              <h1>Des questions ?</h1>
             </Link>
           </div>
         </div>
