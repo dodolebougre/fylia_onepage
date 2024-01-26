@@ -42,7 +42,7 @@ const ValueProp2 = () => {
             <div className="flex flex-row p-1">
               <div className="border border-black overflow-hidden inline-block mr-1  ">
                 <Image
-                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417675660_823248099566448_7461296100062776775_n.png?_nc_cat=107&ccb=1-7&_nc_sid=510075&_nc_ohc=Y2pKUKeDyu4AX_GiHa4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSAMA-u8YEO7R7IVh6XLUr9H-Xbp1kIZ34WU23UZJTF-g&oe=65D8EB54"
+                  src="https://images.unsplash.com/photo-1584661156681-540e80a161d3?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   width={370}
                   height={500}
                   alt="P"
@@ -51,8 +51,8 @@ const ValueProp2 = () => {
               </div>
               <div className="overflow-hidden inline-block  border border-black ">
                 <Image
-                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417739255_1301157630579103_2380437704024145629_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=5aawG8O6FPUAX8hB70k&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQtpzku79oLpHNcMGfm8PZgGeAszyAo0jea2pxBHtevmQ&oe=65D8C639"
-                  width={325}
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417914170_427981869563399_7874365926759799778_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=g51ita4fHYIAX9slJDO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT8moIYLjAwVQ-CXTAdYsucDG3EI6Qb4K9TEIqtvpvS8g&oe=65DB60CD"
+                  width={345}
                   height={500}
                   alt="Bureaux"
                   className="transition-transform duration-500 hover:scale-110 scale-105"
@@ -75,7 +75,7 @@ const ValueProp2 = () => {
               itemTwo={
                 <ReactCompareSliderImage
                   alt="Image two"
-                  src="https://media.discordapp.net/attachments/1176884287925145653/1200377954786615366/supernoval_99898_an_artists_professionnal_exposition_room_with__80065484-6a45-4f21-94fa-866810ea4859.png?ex=65c5f616&is=65b38116&hm=1dfb192f06c5c7bb7ef45db791e174bb11a642797af8ea5b4479d1a1142219bd&=&format=webp&quality=lossless&width=1766&height=990"
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417914170_427981869563399_7874365926759799778_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=g51ita4fHYIAX9slJDO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT8moIYLjAwVQ-CXTAdYsucDG3EI6Qb4K9TEIqtvpvS8g&oe=65DB60CD"
                 />
               }
               keyboardIncrement="5%"
@@ -83,7 +83,7 @@ const ValueProp2 = () => {
             />
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
-            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesures</h1>
+            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesure</h1>
             <p className="text-2xl mt-4 font-light">
               Une prestation entièrement personnalisable
             </p>
