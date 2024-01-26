@@ -4,7 +4,7 @@ const Proofbar = () => {
   return (
     <div
       id="parcours"
-      className="mb-10 flex flex-col items-center justify-center xl:flex-row pt-5 text-center md:mt-0 m-[-40px]"
+      className="mb-10 flex flex-col items-center justify-center xl:flex-row pt-5 text-center md:mt-0 m-[-100px]"
     >
       <h1 className="text-center flex flex-row justify-center items-center text-2xl xl:rotate-[-90deg] w-[150px] p-10">
         Ils nous soutiennent
