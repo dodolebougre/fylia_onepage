@@ -75,7 +75,7 @@ const ValueProp2 = () => {
               itemTwo={
                 <ReactCompareSliderImage
                   alt="Image two"
-                  src="https://media.discordapp.net/attachments/1176884287925145653/1200133891990761602/supernoval_99898_persons_in_a_company_looks_out_over_a_colorful_91cd05b9-cc1a-4949-9d88-d42887c99770.png?ex=65c512c9&is=65b29dc9&hm=ffdeab8ae0c932234c260d1ddaaf7e2fe7a70f2fe608367bc0c7e9367a10441f&=&format=webp&quality=lossless&width=1766&height=990"
+                  src="https://media.discordapp.net/attachments/1176884287925145653/1200377954786615366/supernoval_99898_an_artists_professionnal_exposition_room_with__80065484-6a45-4f21-94fa-866810ea4859.png?ex=65c5f616&is=65b38116&hm=1dfb192f06c5c7bb7ef45db791e174bb11a642797af8ea5b4479d1a1142219bd&=&format=webp&quality=lossless&width=1766&height=990"
                 />
               }
               keyboardIncrement="5%"
