@@ -15,12 +15,12 @@ const form = () => {
         <div className="xl:w-[600px] flex items-center justify-center">
           <Form />
         </div>
-        <div className="flex items-center justify-center p-1 ">
+        <div className="flex items-center justify-center m-1 border border-black  ">
           <div className="overflow-hidden inline-block ">
             <Image
               width={465}
               height={700}
-              className="border border-black transition duration-700 hover:scale-110 ease-in-out xl:w-[465px] md:w-[600px]  w-[370px]"
+              className="transition duration-700 hover:scale-110 ease-in-out xl:w-[465px] md:w-[600px]  w-[370px]"
               src="https://images.unsplash.com/photo-1611244419377-b0a760c19719?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Peintre"
             />
