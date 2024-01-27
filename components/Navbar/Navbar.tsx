@@ -77,7 +77,7 @@ const Navbar = () => {
                 }
                 height={80}
                 width={80}
-                className="cursor-pointer transition-all ease-in-out"
+                className="cursor-pointer"
               />
               <p className="font-light text-sm text-center cursor-pointer">
                 Feel good by art
