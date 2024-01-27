@@ -37,8 +37,8 @@ const Hero = () => {
                 ],
                 autoStart: true,
                 loop: true,
-                delay: 80,
-                deleteSpeed: 40,
+                delay: 100,
+                deleteSpeed: 50,
               }}
             />
           </h1>
@@ -48,7 +48,7 @@ const Hero = () => {
             experience unique.
           </h2>
           <ScrollLink to="services" smooth={true} duration={1500} offset={-95}>
-            <button className="font-light border p-4 hover:bg-white hover:text-black">
+            <button className="font-light border p-4 duration-700 transform hover:bg-white hover:text-black hover:scale-105 transition ease-in-out">
               Nos services ☞
             </button>
           </ScrollLink>

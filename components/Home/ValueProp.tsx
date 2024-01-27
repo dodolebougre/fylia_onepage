@@ -16,7 +16,7 @@ const ValueProp = () => {
       <section className="flex flex-col items-center p-6  border border-black mt-10 xl:mt-0 xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
         <div className="flex flex-col items-center">
           <div>
-            <CiPen className=" text-4xl hover:scale-110 transition-transform duration-300" />
+            <CiPen className=" text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
           <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
             L’image de marque
@@ -32,7 +32,7 @@ const ValueProp = () => {
       <section className="flex flex-col bg-gray p-6 border border-black xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px] xl:border-r-0 xl:border-b border-b-0">
         <div className="flex flex-col items-center">
           <div>
-            <PiLeafLight className="text-4xl hover:scale-110 transition-transform duration-300" />
+            <PiLeafLight className="text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
           <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
             Bien-être
@@ -48,7 +48,7 @@ const ValueProp = () => {
       <section className="flex flex-col p-6  border border-black  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">
         <div className="flex flex-col items-center">
           <div>
-            <PiClockCountdownLight className=" text-4xl hover:scale-110 transition-transform duration-300" />
+            <PiClockCountdownLight className=" text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
           <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5 text-center">
             Avantages financiers

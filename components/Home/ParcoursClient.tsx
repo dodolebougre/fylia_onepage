@@ -30,7 +30,7 @@ const ParcoursClient = () => {
               <h1>Etape 1</h1>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out ">
               <p className="font-light invisible group-hover:visible">
                 Remplissez notre <strong> formulaire de contact </strong>et
                 décrivez votre besoin.
@@ -53,7 +53,7 @@ const ParcoursClient = () => {
               <h1>Etape 2</h1>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
               <p className="font-light invisible group-hover:visible">
                 Nous vous contactons pour vous présenter nos
                 <strong> artistes et vous proposez des prestations</strong>{" "}
@@ -75,7 +75,7 @@ const ParcoursClient = () => {
                 <h1>Etape 3</h1>
                 <p className="mt-2 rotate-[-90deg]">☞</p>
               </div>
-              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
                 <p className="font-light invisible group-hover:visible">
                   En collaboration avec vous,{" "}
                   <strong>nous perfectionnons</strong> ces propositions pour{" "}
@@ -103,7 +103,7 @@ const ParcoursClient = () => {
               <h1>Etape 4</h1>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer">
+            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
               <p className="font-light invisible group-hover:visible">
                 Nous fixons une date et le tour est joué.{" "}
                 <strong>Place à l’artiste!</strong>
@@ -112,7 +112,7 @@ const ParcoursClient = () => {
           </div>
         </section>
         <button
-          className="font-light border  hover:bg-black hover:text-white border-black  p-4  m-10"
+          className="font-light border  hover:bg-black hover:text-white border-black  p-4  m-10 duration-700 ease-in-out transition hover:scale-105"
           data-tally-open="3X0d7j"
           data-tally-layout="modal"
         >

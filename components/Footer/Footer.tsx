@@ -40,16 +40,24 @@ const Footer = () => {
           <div className="mb-5 xl:w-[170px] flex flex-col items-center xl:items-start">
             <h1 className=" font-bold text-2xl">Solution</h1>
             <Link href="#">
-              <p className="hover:font-normal">Fylia</p>
+              <p className="hover:font-normal  transition duration-700 ease-in-out">
+                Fylia
+              </p>
             </Link>
-            <Link href="#parcours" >
-              <p className="hover:font-normal">Nos avantages</p>
+            <Link href="#parcours">
+              <p className="hover:font-normal  transition duration-700 ease-in-out">
+                Nos avantages
+              </p>
             </Link>
             <Link href="#services">
-              <p className="hover:font-normal">Nos services</p>
+              <p className="hover:font-normal  transition duration-700 ease-in-out">
+                Nos services
+              </p>
             </Link>
             <Link href="#question">
-              <p className="hover:font-normal">Des questions ?</p>
+              <p className="hover:font-normal  transition duration-700 ease-in-out">
+                Des questions ?
+              </p>
             </Link>
           </div>
           <div className="mb-5">

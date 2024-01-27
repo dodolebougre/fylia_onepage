@@ -29,7 +29,7 @@ const MyComponent = () => {
   return (
     <div className="font-light">
       <button
-        className="border p-3 font-light text-center hover:bg-black hover:text-white border-black my-10"
+        className="transition hover:scale-105 duration-700 ease-in-out border p-3 font-light text-center hover:bg-black hover:text-white border-black my-10"
         onClick={() => setIsOpen(true)}
       >
         Rendez-vous en visio ☞

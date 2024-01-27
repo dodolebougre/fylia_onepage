@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
         <div className="text-sm font-light hidden xl:flex gap-4">
           <ScrollLink to="value" smooth={true} duration={1500} offset={-95}>
-            <p className="p-2 cursor-pointer hover:underline transition-transform duration-300">
+            <p className="p-2 cursor-pointer hover:underline transition-all  duration-700 ease-in-out">
               Nos avantages
             </p>
           </ScrollLink>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="flex flex-col justify-center text-center items-center text-white">
             <Link
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-gray-500 transition duration-700 ease-in-out"
               href="#value"
             >
               {" "}
@@ -134,7 +134,7 @@ const Navbar = () => {
 
             <Link
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-gray-500 transition duration-700 ease-in-out"
               href="#services"
             >
               <h1>Nos services</h1>
@@ -142,7 +142,7 @@ const Navbar = () => {
 
             <Link
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-gray-500 transition duration-700 ease-in-out"
               href="#question"
             >
               <h1>Des questions ?</h1>

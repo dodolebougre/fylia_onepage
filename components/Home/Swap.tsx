@@ -6,7 +6,7 @@ const Swap = () => {
   return (
     <div>
       <ScrollLink to="value" smooth={true} duration={1000} offset={-95}>
-        <button className="border animate-bounce border-white w-12 h-12 rounded-full flex items-center justify-center shadow-xl  cursor-pointer text-white hover:bg-white hover:text-black absolute mt-10 ml-[-20px]">
+        <button className="border animate-bounce border-white w-12 h-12 rounded-full flex items-center justify-center shadow-xl  cursor-pointer text-white duration-700 transform hover:bg-white hover:text-black hover:scale-105 transition ease-in-out absolute mt-10 ml-[-20px]">
           <GoArrowDown></GoArrowDown>
         </button>
       </ScrollLink>

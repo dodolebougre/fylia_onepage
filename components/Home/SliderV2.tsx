@@ -31,7 +31,7 @@ export default function Slider() {
               centeredSlides={true}
               navigation={true}
               modules={[Navigation]}
-              className="flex justify-center items-center"
+              className="flex justify-center items-center transition duration-700"
             >
               <SwiperSlide>
                 <div className="flex justify-center items-center group relative">
@@ -42,8 +42,8 @@ export default function Slider() {
                     height={50}
                     className="w-[1/2] h-[1/2]"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
-                    <p className="font-light invisible group-hover:visible text-white">
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer duration-700 ease-in-out">
+                    <p className="font-light invisible group-hover:visible text-white ">
                       Exemple de <strong>fresque</strong> <br />
                       Locaux de Microsoft
                     </p>
@@ -59,7 +59,7 @@ export default function Slider() {
                     height={50}
                     className="w-[1/2] h-[1/2]"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer duration-700 ease-in-out">
                     <p className="font-light invisible group-hover:visible text-white">
                       Exemple de <strong>tableaux</strong> <br />
                       Locaux d'une agence
@@ -76,7 +76,7 @@ export default function Slider() {
                     height={50}
                     className="w-[1/2] h-[1/2]"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer">
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center text-2xl cursor-pointer duration-700 ease-in-out">
                     <p className="font-light invisible group-hover:visible text-white">
                       Exemple de <strong>team-building </strong> <br />
                     </p>

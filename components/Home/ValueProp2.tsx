@@ -32,7 +32,7 @@ const ValueProp2 = () => {
               <button
                 data-tally-open="nWzX6j"
                 data-tally-layout="modal"
-                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
+                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light transition ease-in-out duration-700 hover:scale-105"
               >
                 Réalisez votre oeuvre sur mersure ☞
               </button>
@@ -46,16 +46,16 @@ const ValueProp2 = () => {
                   width={370}
                   height={500}
                   alt="P"
-                  className="transition-transform duration-500 hover:scale-110"
+                  className="transition duration-700 hover:scale-110 ease-in-out"
                 />
               </div>
               <div className="overflow-hidden inline-block  border border-black ">
                 <Image
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417914170_427981869563399_7874365926759799778_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=g51ita4fHYIAX9slJDO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT8moIYLjAwVQ-CXTAdYsucDG3EI6Qb4K9TEIqtvpvS8g&oe=65DB60CD"
-                  width={345}
+                  width={349}
                   height={500}
                   alt="Bureaux"
-                  className="transition-transform duration-500 hover:scale-110 scale-105"
+                  className="transition duration-700 hover:scale-110 ease-in-out"
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ const ValueProp2 = () => {
             </ul>
             <div className="flex flex-col xl:items-end items-center mt-6">
               <button
-                className="border p-3 font-light text-center hover:bg-black hover:text-white border-black"
+                className="transition ease-in-out duration-700 hover:scale-105 border p-3 font-light text-center hover:bg-black hover:text-white border-black"
                 data-tally-open="wbdXMg"
                 data-tally-layout="modal"
               >
@@ -121,13 +121,13 @@ const ValueProp2 = () => {
               <button
                 data-tally-open="wkEX41"
                 data-tally-layout="modal"
-                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light"
+                className="border p-3 text-center hover:bg-black hover:text-white border-black font-light transition ease-in-out duration-700 hover:scale-105"
               >
                 Organisez votre team-building ☞
               </button>
             </div>
           </div>
-          <div className="flex flex-col max-w-[600px] duration-300">
+          <div className="flex flex-col max-w-[600px]">
             <div className="flex flex-row p-1">
               <div className="border border-black overflow-hidden inline-block  ">
                 <Image
@@ -135,7 +135,7 @@ const ValueProp2 = () => {
                   width={600}
                   height={500}
                   alt="P"
-                  className="transition-transform duration-500 hover:scale-110"
+                  className="transition-transform duration-700 hover:scale-110 ease-in-out"
                 />
               </div>
             </div>
