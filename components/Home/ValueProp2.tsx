@@ -43,7 +43,7 @@ const ValueProp2 = () => {
               <div className="border border-black overflow-hidden inline-block mr-1  ">
                 <Image
                   src="https://images.unsplash.com/photo-1584661156681-540e80a161d3?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  width={370}
+                  width={371}
                   height={500}
                   alt="P"
                   className="transition duration-700 hover:scale-110 ease-in-out"
@@ -52,10 +52,10 @@ const ValueProp2 = () => {
               <div className="overflow-hidden inline-block  border border-black ">
                 <Image
                   src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417914170_427981869563399_7874365926759799778_n.png?_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=g51ita4fHYIAX9slJDO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT8moIYLjAwVQ-CXTAdYsucDG3EI6Qb4K9TEIqtvpvS8g&oe=65DB60CD"
-                  width={349}
+                  width={348}
                   height={500}
                   alt="Bureaux"
-                  className="transition duration-700 hover:scale-110 ease-in-out"
+                  className="transition duration-700 hover:scale-110 ease-in-out scale-105"
                 />
               </div>
             </div>
