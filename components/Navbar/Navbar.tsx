@@ -54,7 +54,7 @@ const Navbar = () => {
         color: `${textColor}`,
         borderBottom: `1px solid ${borderColor}`,
       }}
-      className="fixed left-0 top-0 w-screen z-20 text-lg first-letter border-b border-solid"
+      className="fixed left-0 top-0 w-screen z-20 text-lg first-letter border-b border-solid transition-all duration-300 ease-in-out"
     >
       <div className="flex items-center justify-between p-3">
         <div className="mt-6 mb-6 flex ml-4 ">
@@ -77,7 +77,7 @@ const Navbar = () => {
                 }
                 height={80}
                 width={80}
-                className="cursor-pointer"
+                className="cursor-pointer transition-all ease-in-out duration-300"
               />
               <p className="font-light text-sm text-center cursor-pointer">
                 Feel good by art
