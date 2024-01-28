@@ -47,7 +47,7 @@ const MyComponent = () => {
           >
             <IoIosClose />
           </button>
-          <InlineWidget url="https://calendly.com/dorian-boatti/vous-avez-une-question-specifique" />
+          <InlineWidget url="https://calendly.com/luc-malfatti/30min?back=1&month=2024-01" />
         </div>
       </Modal>
     </div>
