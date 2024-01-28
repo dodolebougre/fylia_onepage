@@ -42,7 +42,7 @@ const MyComponent = () => {
       >
         <div className="xl:w-[1000px] lg:w-[600px] w-[360px]">
           <button
-            className="hidden border border-black w-6 h-6 rounded-full xl:flex items-center justify-center shadow-xl  cursor-pointer text-black bg-white  xl:ml-[920px] absolute  lg:ml-[580px] ml-[340px] font-thin hover:bg-black hover:text-white"
+            className="hidden w-6 h-6 rounded-full xl:flex items-center justify-center shadow-xl  cursor-pointer text-black bg-white  xl:ml-[920px] absolute  lg:ml-[580px] ml-[340px] font-thin hover:bg-black hover:text-white"
             onClick={() => setIsOpen(false)}
           >
             <IoIosClose />
