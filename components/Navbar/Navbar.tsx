@@ -69,7 +69,7 @@ const Navbar = () => {
           <ScrollLink to="hero" smooth={true} duration={1500} offset={0}>
             <div className="flex flex-col items-center justify-center">
               <Image
-                alt="Navbar Image"
+                alt="Logo de fylia"
                 src={
                   showScrolledImage
                     ? "/assets/icon/fylia black.png"
