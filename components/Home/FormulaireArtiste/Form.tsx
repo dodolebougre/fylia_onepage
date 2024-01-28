@@ -41,7 +41,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center xl:mr-[-50px] ">
       <h1 className="text-2xl mb-9 md:text-2xl lg:text-3xl text-center mt-10 p-2 md:w-[500px] w-[350px]">
         Vous êtes un(e) artiste ou un(e) designer et êtes intéressé(e) par une
         collaboration ?
