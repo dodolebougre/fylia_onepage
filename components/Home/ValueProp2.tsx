@@ -69,13 +69,13 @@ const ValueProp2 = () => {
               itemOne={
                 <ReactCompareSliderImage
                   alt="Image one"
-                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/417634704_2083524791994652_4902182123727859007_n.png?_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=FCv4zJAFA_oAX9j5Lz8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQVSn-JGrwUDy2124gp9PfR_a46N1_zaHAIIw8M6qJmaA&oe=65DB5F6F"
+                  src="/assets/image/ENtreprise sans fresque.png"
                 />
               }
               itemTwo={
                 <ReactCompareSliderImage
                   alt="Image two"
-                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/418093234_370136752431112_7164859941821537544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=zd7CBC11bSQAX_AQU74&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS09gYE-Naj1eDCj3e_x1BBfrTCAdno6yRlepXW9pd7jg&oe=65DB961B"
+                  src="/assets/image/ENtreprise avec fresque.png"
                 />
               }
               keyboardIncrement="5%"
