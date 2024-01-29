@@ -9,7 +9,7 @@ const Hero = () => {
     <div id="hero">
       <div className="flex flex-col items-center justify-center h-screen">
         <div
-          className="xl:bg-fixed bg-center bg-cover object-cover bg-[#215A69]"
+          className="xl:bg-fixed bg-center bg-cover object-cover bg-black"
           style={{
             backgroundImage: 'url("/assets/image/Photo de fond v2 (1).webp")',
             filter: "brightness(0.4)",
