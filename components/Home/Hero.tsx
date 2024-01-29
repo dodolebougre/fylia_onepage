@@ -42,9 +42,8 @@ const Hero = () => {
             />
           </h1>
           <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-light">
-            Nous vous mettons en relation avec l'artiste parfait, pour dynamiser
-            et mettre en avant vos équipes et vos valeurs à travers une
-            experience unique.
+            Nos artistes vous aident à créer une atmosphère de bien-être au
+            travail grâce à des prestations uniques.
           </h2>
           <ScrollLink to="services" smooth={true} duration={1500} offset={-95}>
             <button className="font-light border p-4 duration-700 transform hover:bg-white hover:text-black hover:scale-105 transition ease-in-out">

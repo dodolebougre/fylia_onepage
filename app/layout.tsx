@@ -5,7 +5,8 @@ import Footer from "../components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Fylia",
-  description: "Créez vous un espace de travail idéal grâce à l'art",
+  description:
+    "Améliorez le bien-être de vos collaborateurs grâce à l'art personnalisé",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
