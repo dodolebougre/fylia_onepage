@@ -114,7 +114,7 @@ const ValueProp2 = () => {
               Un séminaire organisé de A à Z
             </p>
             <ul className="text-1xl xl:text-lg mt-3 font-light">
-              <li>Fédérez vos employés autour de nos servives artistiques ✓</li>
+              <li>Fédérez vos employés autour de nos services artistiques ✓</li>
               <li>Proposez un moyen de partage novateur et engagé ✓</li>
             </ul>
             <div className="flex flex-col xl:items-start items-center mt-6">

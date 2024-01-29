@@ -12,7 +12,7 @@ const Hero = () => {
           className="xl:bg-fixed bg-center bg-cover object-cover bg-black"
           style={{
             backgroundImage: 'url("/assets/image/Photo de fond v2 (1).webp")',
-            filter: "brightness(0.4)",
+            filter: "brightness(0.5)",
             position: "absolute",
             top: 0,
             right: 0,
