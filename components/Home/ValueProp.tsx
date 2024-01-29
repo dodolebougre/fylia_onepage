@@ -39,10 +39,10 @@ const ValueProp = () => {
           </h1>
         </div>
         <p className="text-lg text-center font-light">
-          <strong>Stimulez</strong> la créativité et le{" "}
-          <strong>bien être </strong> de vos équipes grâce à l'art. Créez un
-          environnement de travail <strong> stimulant</strong> qui nourrit
-          l’engagement ✶
+          <strong>Stimulez</strong> la créativité et le
+          <strong> bien être </strong> de vos équipes grâce à l'art. Créez un
+          environnement de travail <strong> reflétant leurs valeurs</strong> et
+          favorisant ainsi l’engagement ✶
         </p>
       </section>
       <section className="flex flex-col p-6  border border-black  xl:max-w-[400px] md:w-[600px] md:max-w-[600px] max-w-[360px]">

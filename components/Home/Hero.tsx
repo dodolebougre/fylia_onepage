@@ -11,9 +11,8 @@ const Hero = () => {
         <div
           className="xl:bg-fixed bg-center bg-cover object-cover bg-[#215A69]"
           style={{
-            backgroundImage:
-              'url("https://media.discordapp.net/attachments/1176884287925145653/1199255001676132454/supernoval_99898_a_coworking_space_with_lot_of_painting_colored_48e0fb64-ea30-4474-b907-5fb18d08ddcd.png?ex=65c1e041&is=65af6b41&hm=0af6bed162aca9a349ceaa60666946a280dbb1dddb427b6f099821d3c6812670&=&format=webp&quality=lossless&width=1766&height=990")',
-            filter: "brightness(0.4)",
+            backgroundImage: 'url("/assets/image/Photo de fond v2 (1).webp")',
+            filter: "brightness(0.5)",
             position: "absolute",
             top: 0,
             right: 0,
