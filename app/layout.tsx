@@ -28,6 +28,14 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500;600;700&family=Philosopher:wght@400;700&family=Roboto:wght@100&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Belleza&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.cdnfonts.com/css/athena"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         <main>

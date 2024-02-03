@@ -22,7 +22,7 @@ const Hero = () => {
           }}
         ></div>
         <div className="p-5 text-white text-center">
-          <h1
+          <h2
             className="text-4xl tracking-tighter md:text-6xl lg:text-7xl mb-5"
             style={{ textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)" }}
           >
@@ -40,11 +40,11 @@ const Hero = () => {
                 deleteSpeed: 50,
               }}
             />
-          </h1>
-          <h2 className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-light">
+          </h2>
+          <p className="max-w-2xl mx-auto text-2xs tracking-normal sm:text-2xs md:text-lg lg:text-xl mb-9 font-light">
             Nos artistes vous aident à créer une atmosphère de bien-être au
             travail grâce à des prestations uniques.
-          </h2>
+          </p>
           <ScrollLink to="services" smooth={true} duration={1500} offset={-95}>
             <button className="font-light border p-4 duration-700 transform hover:bg-white hover:text-black hover:scale-105 transition ease-in-out">
               Nos services ☞

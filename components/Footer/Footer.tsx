@@ -17,12 +17,7 @@ const Footer = () => {
     <footer className="p-10 flex flex-col mt-1xl  text-black border-top border-black font-light">
       <section className="flex xl:flex-row flex-col lg:justify-between">
         <div className="flex flex-col items-center m-3 ">
-          <Image
-            alt="Navbar Image"
-            src={"/assets/icon/fylia black.png"}
-            height={100}
-            width={100}
-          />
+          <h1 className="text-5xl">fylia</h1>
 
           <div className="mt-6 mb-6 flex ml-4">
             <a href="https://www.linkedin.com/company/fylia/">
@@ -38,7 +33,7 @@ const Footer = () => {
         </div>
         <div className="xl:flex xl:text-start text-center gap-20 justify-center">
           <div className="mb-5 xl:w-[170px] flex flex-col items-center xl:items-start">
-            <h1 className=" font-bold text-2xl">Solution</h1>
+            <h2 className=" font-bold text-2xl">Solution</h2>
             <Link href="#">
               <p className="hover:font-normal  transition duration-700 ease-in-out">
                 Fylia
@@ -61,7 +56,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="mb-5">
-            <h1 className=" font-bold text-2xl">Contact</h1>
+            <h2 className=" font-bold text-2xl">Contact</h2>
             <div className="flex items-center justify-center xl:justify-start">
               <CiMail />
               <p className="ml-2"> moncontact@fylia.fr</p>
@@ -72,7 +67,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mb-5 xl:w-[200px] flex flex-col xl:items-start items-center">
-            <h1 className="font-bold text-2xl">Sécurité</h1>
+            <h2 className="font-bold text-2xl">Sécurité</h2>
             <StrictMode>
               <CGV />
             </StrictMode>

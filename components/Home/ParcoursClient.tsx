@@ -27,7 +27,7 @@ const ParcoursClient = () => {
               />
             </div>
             <div className=" absolute flex justify-center items-center group-hover:invisible z-10 cursor-pointer group inset-0 text-center flex-col text-3xl">
-              <h1>Etape 1</h1>
+              <h2>Etape 1</h2>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out ">
@@ -50,7 +50,7 @@ const ParcoursClient = () => {
               />
             </div>
             <div className=" absolute flex justify-center items-center group-hover:invisible z-10 cursor-pointer group inset-0 text-center flex-col text-3xl">
-              <h1>Etape 2</h1>
+              <h2>Etape 2</h2>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
@@ -72,7 +72,7 @@ const ParcoursClient = () => {
                 style={{ filter: "brightness(0.7)" }}
               />
               <div className=" absolute flex justify-center items-center group-hover:invisible z-10 cursor-pointer group inset-0 text-center flex-col text-3xl">
-                <h1>Etape 3</h1>
+                <h2>Etape 3</h2>
                 <p className="mt-2 rotate-[-90deg]">☞</p>
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
@@ -100,7 +100,7 @@ const ParcoursClient = () => {
               />
             </div>
             <div className=" absolute flex justify-center items-center group-hover:invisible z-10 cursor-pointer group inset-0 text-center flex-col text-3xl">
-              <h1>Etape 4</h1>
+              <h2>Etape 4</h2>
               <p className="mt-2 rotate-[-90deg]">☞</p>
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">

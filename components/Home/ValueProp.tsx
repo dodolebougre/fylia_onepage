@@ -18,9 +18,9 @@ const ValueProp = () => {
           <div>
             <CiPen className=" text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
-          <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
+          <h2 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
             L’image de marque
-          </h1>
+          </h2>
         </div>
         <p className="text-lg text-center font-light">
           Réalisez un investissement <strong>engagé</strong> , qui exprime les{" "}
@@ -34,9 +34,9 @@ const ValueProp = () => {
           <div>
             <PiLeafLight className="text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
-          <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
+          <h2 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5">
             Bien-être
-          </h1>
+          </h2>
         </div>
         <p className="text-lg text-center font-light">
           <strong>Stimulez</strong> la créativité et le
@@ -50,9 +50,9 @@ const ValueProp = () => {
           <div>
             <PiClockCountdownLight className=" text-4xl hover:scale-105 transition duration-700 ease-in-out" />
           </div>
-          <h1 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5 text-center">
+          <h2 className="text-2xl mb-6 md:text-2xl lg:text-3xl mt-5 text-center">
             Avantages financiers
-          </h1>
+          </h2>
         </div>
         <p className="text-lg text-center font-light">
           En achetant une ou plusieurs œuvres d’arts et en{" "}

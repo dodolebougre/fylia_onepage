@@ -12,7 +12,6 @@ const Navbar = () => {
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
   const [borderColor, setBorderColor] = useState("white");
-  const [showScrolledImage, setShowScrolledImage] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,12 +30,10 @@ const Navbar = () => {
         setColor("#ffffff");
         setTextColor("#000000");
         setBorderColor("#000000");
-        setShowScrolledImage(true);
       } else {
         setColor("transparent");
         setTextColor("#ffffff");
         setBorderColor("#ffffff");
-        setShowScrolledImage(false);
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -68,17 +65,7 @@ const Navbar = () => {
         <div className="flex flex-col xl:ml-[300px] mr-9 text-center">
           <ScrollLink to="hero" smooth={true} duration={1500} offset={0}>
             <div className="flex flex-col items-center justify-center">
-              <Image
-                alt="Logo de fylia"
-                src={
-                  showScrolledImage
-                    ? "/assets/icon/fylia black.png"
-                    : "/assets/icon/fylia white.png"
-                }
-                height={80}
-                width={80}
-                className="cursor-pointer"
-              />
+              <h1 className="text-center text-4xl pb-1">fylia</h1>
               <p className="font-light text-sm text-center cursor-pointer">
                 Feel good by art
               </p>

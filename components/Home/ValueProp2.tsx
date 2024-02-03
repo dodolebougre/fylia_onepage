@@ -20,7 +20,7 @@ const ValueProp2 = () => {
             className="flex flex-col xl:text-left p-10 text-center max-w-[600px]
       "
           >
-            <h1 className="xl:text-6xl text-4xl ">Tableaux personnalisés</h1>
+            <h2 className="xl:text-6xl text-4xl ">Tableaux personnalisés</h2>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
               Une offre adaptée à vos besoins !
             </p>
@@ -83,7 +83,7 @@ const ValueProp2 = () => {
             />
           </div>
           <div className="flex flex-col xl:text-right text-center p-8 max-w-[600px]">
-            <h1 className="xl:text-6xl text-4xl">Des fresques sur-mesure</h1>
+            <h2 className="xl:text-6xl text-4xl">Des fresques sur-mesure</h2>
             <p className="text-2xl mt-4 font-light">
               Une prestation entièrement personnalisable
             </p>
@@ -107,9 +107,9 @@ const ValueProp2 = () => {
             className="flex flex-col xl:text-left p-10 text-center max-w-[600px]
       "
           >
-            <h1 className="xl:text-6xl text-4xl max-w-[600px] ">
+            <h2 className="xl:text-6xl text-4xl max-w-[600px] ">
               Faites participer vos employés !
-            </h1>
+            </h2>
             <p className="text-2xl xl:text-1xl mt-4 font-light ">
               Un séminaire organisé de A à Z
             </p>

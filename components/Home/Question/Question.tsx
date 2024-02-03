@@ -17,9 +17,9 @@ const Question = () => {
       </h1>
       <div className="xl:w-[1200px] md:w-[600px] w-[360px]  flex xl:flex-row flex-col border border-black items-center justify-center">
         <div className="md:w-[700px] flex flex-col items-center justify-center text-center">
-          <h1 className=" w-[300px] text-2xl md:text-2xl lg:text-3xl text-center mt-10 ">
+          <h2 className=" w-[300px] text-2xl md:text-2xl lg:text-3xl text-center mt-10 ">
             Vous ne trouvez pas la réponse à votre question ?
-          </h1>
+          </h2>
           <CalendlyWidget />
         </div>
         <div className="font-light">
