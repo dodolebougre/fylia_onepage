@@ -66,7 +66,7 @@ const Question = () => {
             <AccordionItem
               className="p-4"
               key="3"
-              aria-label="QCombien de temps pour une prestation ? ?"
+              aria-label="Combien de temps pour une prestation ? ?"
               title="Combien de temps pour une prestation ?"
               indicator={({ isOpen }: any) =>
                 isOpen ? (
