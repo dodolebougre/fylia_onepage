@@ -56,7 +56,7 @@ const ParcoursClient = () => {
             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity text-center p-10 text-2xl cursor-pointer duration-700 ease-in-out">
               <p className="font-light invisible group-hover:visible">
                 Nous vous contactons pour vous présenter nos
-                <strong> artistes et vous proposez des prestations</strong>{" "}
+                <strong> artistes et vous proposer des prestations</strong>{" "}
                 parfaitement adaptées à votre entreprise.
               </p>
             </div>

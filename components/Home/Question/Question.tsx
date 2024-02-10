@@ -114,7 +114,7 @@ const Question = () => {
               }
               key="5"
               aria-label="Quel sont exactement les avantages fiscaux ? "
-              title="Quel sont exactement les avantages fiscaux ? "
+              title="Quels sont exactement les avantages fiscaux ? "
             >
               <p className="text-sm font-extralight xl:w-[500px]">
                 Selon l'article 238bis AB du Code général des Impôts, une
